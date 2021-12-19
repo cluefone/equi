@@ -8,7 +8,7 @@
 			<CY>30</CY>
 		</Size>
 	</TextureInfo>
-	
+
 	    <Ui2DAnimation item="A_AttackIndicatorTop">
 	        <Cycle>false</Cycle>
 	        <Frames>
@@ -115,7 +115,7 @@
  	        <TopAnchorOffset>0</TopAnchorOffset>
  	        <BottomAnchorOffset>0</BottomAnchorOffset>
  	        <LeftAnchorOffset>0</LeftAnchorOffset>
- 	        <RightAnchorOffset>4</RightAnchorOffset>       
+ 	        <RightAnchorOffset>4</RightAnchorOffset>
  	        <TopAnchorToTop>true</TopAnchorToTop>
  	        <BottomAnchorToTop>false</BottomAnchorToTop>
  	        <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -146,8 +146,8 @@
  	        <BottomAnchorOffset>28</BottomAnchorOffset>
  	        <BottomAnchorToTop>true</BottomAnchorToTop>
  	        <RightAnchorToLeft>false</RightAnchorToLeft>
- 	    </StaticAnimation> 
-  	  	  		
+ 	    </StaticAnimation>
+
 	<Ui2DAnimation item="A_PWCSInCombat">
 		<Cycle>true</Cycle>
 		<Frames>
@@ -300,7 +300,7 @@
 			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
-		
+
  	        <AutoStretch>false</AutoStretch>
  	        <TopAnchorOffset>62</TopAnchorOffset>
  	        <BottomAnchorOffset>72</BottomAnchorOffset>
@@ -308,7 +308,7 @@
  	        <RightAnchorOffset>0</RightAnchorOffset>
  	        <RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
-	
+
 	<Label item="Player_CombatTimerLabel">
 		<ScreenID>Player_CombatTimerLabel</ScreenID>
 		<EQType>137</EQType>
@@ -366,7 +366,7 @@
  	        <RightAnchorToLeft>false</RightAnchorToLeft> -->
 	</Button>
 
-	
+
 	<Button item="PW_NewMailIcon">
 		<ScreenID>PW_NewMailIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -387,7 +387,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
-    
+
     <Button item="PW_ParcelsIcon">
 		<ScreenID>PW_ParcelsIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -407,7 +407,7 @@
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		
+
 	</Button>
 	<Button item="PW_ParcelsOverLimitIcon">
 		<ScreenID>PW_ParcelsOverLimitIcon</ScreenID>
@@ -615,7 +615,7 @@
  	        <BottomAnchorOffset>42</BottomAnchorOffset>
  	        <LeftAnchorOffset>6</LeftAnchorOffset>
  	        <RightAnchorOffset>4</RightAnchorOffset>
- 	        <RightAnchorToLeft>false</RightAnchorToLeft>		
+ 	        <RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
 
 	<Label item ="Player_HPNote">
@@ -784,7 +784,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>true</AlignLeft>
 	</Label>
-	
+
 	<Label item="Player_HPLabel">
 		<ScreenID>HPLabel</ScreenID>
 		<EQType>19</EQType>
@@ -808,7 +808,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignCenter>false</AlignCenter>
 		<Font>3</Font>
-		
+
 	</Label>
 	<Label item="Player_HPPercLabel">
 		<ScreenID>HPPerLabel</ScreenID>
@@ -831,7 +831,7 @@
 		<AlignRight>true</AlignRight>
 		<AlignCenter>false</AlignCenter>
 		<Font>3</Font>
-	</Label>	
+	</Label>
 <Label item="Player_ManaLabel">
  	<ScreenID>ManaLabel</ScreenID>
  	<EQType>20</EQType>
@@ -877,9 +877,9 @@
 	<AlignRight>true</AlignRight>
  	<AlignCenter>false</AlignCenter>
 	<AlignLeft>false</AlignLeft>
-	</Label>	
+	</Label>
 
-	
+
  <Label item="Player_FatigueLabel">
  	<ScreenID>FatigueLabel</ScreenID>
  	<EQType>21</EQType>
@@ -943,7 +943,7 @@
     <ButtonDrawTemplate>
         <Normal>A_CheckBoxNormal</Normal>
     </ButtonDrawTemplate>
-</Button>	
+</Button>
 
 
  	    <Button item="GW_GroupRoleTank">
@@ -1022,7 +1022,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
-	
+
 	<Label item="PW_AggroPctPlayerLabel">
 		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1101,7 +1101,7 @@
 		<Pieces>Player_HPNote</Pieces>
 		<TooltipReference>This is you if you are too drunk to remember</TooltipReference>
 		<Pieces>Player_HPLabel</Pieces>
-		<Pieces>Player_HPPercLabel</Pieces>		
+		<Pieces>Player_HPPercLabel</Pieces>
  		<Pieces>Player_ManaLabel</Pieces>
 		<Pieces>Player_ManaPercLabel</Pieces>
 		<Pieces>Player_FatigueLabel</Pieces>
@@ -1111,18 +1111,18 @@
 		<Pieces>PW_CombatStateAnim</Pieces>
 		<Pieces>PW_NewMailIcon</Pieces>
 		<Pieces>PW_ParcelsIcon</Pieces>
-		<Pieces>PW_ParcelsOverLimitIcon</Pieces> 
+		<Pieces>PW_ParcelsOverLimitIcon</Pieces>
                 <Pieces>PW_VoiceVolume</Pieces>
                 <Pieces>GW_GroupRoleTank</Pieces>
                 <Pieces>GW_GroupRoleAssist</Pieces>
         	<Pieces>GW_GroupRolePuller</Pieces>
 		<Pieces>GW_GroupRoleMarkNPC</Pieces>
-<!--		<Pieces>A_AttackIndicatorAnim</Pieces>  -->
-<!--        	<Pieces>A_AttackIndicatorAnimTop</Pieces>  -->
-<!--        	<Pieces>A_AttackIndicatorAnimBottom</Pieces>  -->
-<!--        	<Pieces>A_AttackIndicatorAnimLeft</Pieces>  -->
-<!--        	<Pieces>A_AttackIndicatorAnimRight</Pieces>  -->
-<!--        	<Pieces>A_AttackIndicatorAnimFill</Pieces>  -->
+		<Pieces>A_AttackIndicatorAnim</Pieces>
+        	<Pieces>A_AttackIndicatorAnimTop</Pieces>
+        	<Pieces>A_AttackIndicatorAnimBottom</Pieces>
+        	<Pieces>A_AttackIndicatorAnimLeft</Pieces>
+        	<Pieces>A_AttackIndicatorAnimRight</Pieces>
+        	<Pieces>A_AttackIndicatorAnimFill</Pieces>
 	</Screen>
 
 </XML>
