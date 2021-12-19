@@ -7,11 +7,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>3</X>
-			<Y>29</Y>
+			<Y>24</Y>
 		</Location>
 		<Size>
-			<CX>316</CX>
-			<CY>40</CY>
+			<CX>324</CX>
+			<CY>10</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
@@ -42,7 +42,7 @@
 	<Label item="Casting_SpellName">
 		<ScreenID />
 		<EQType>134</EQType>
-		<Font>6</Font>
+		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>1</LeftAnchorOffset>
@@ -54,11 +54,11 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text />
-		<TextColor>
+		<!-- <TextColor>
 			<R>255</R>
 			<G>255</G>
 			<B>255</B>
-		</TextColor>
+		</TextColor> -->
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -73,15 +73,15 @@
 		</Location>
 		<Size>
 			<CX>360</CX>
-			<CY>90</CY>
+			<CY>55</CY>
 		</Size>
 		<Text>Casting Time</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>The Breath Meter</TooltipReference>
-		<DrawTemplate>WDT_Filigree</DrawTemplate>
-		<Style_Titlebar>true</Style_Titlebar>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
