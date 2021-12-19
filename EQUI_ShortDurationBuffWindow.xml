@@ -10,8 +10,8 @@
 			<Y>1</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -20,7 +20,7 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>16</CY>
+			<CY>12</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff0">
@@ -30,17 +30,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>2</Y>
+			<X>18</X>
+			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff0Number">
+		<ScreenID>Buff0No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S1</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff1_Button">
@@ -48,11 +71,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>18</Y>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -61,7 +84,7 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>16</CY>
+			<CY>12</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff1">
@@ -71,17 +94,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>19</Y>
+			<X>18</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff1Number">
+		<ScreenID>Buff1No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>13</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S2</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff2_Button">
@@ -89,13 +135,13 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>35</Y>
+			<Y>25</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
+			<CX>122</CX>
 			<CY>16</CY>
 		</Size>
-           <Template>BDT_BlueBuff</Template>
+		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
 			<X>0</X>
 			<Y>0</Y>
@@ -112,17 +158,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>36</Y>
+			<X>18</X>
+			<Y>25</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff2Number">
+		<ScreenID>Buff2No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>25</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S3</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff3_Button">
@@ -130,11 +199,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>52</Y>
+			<Y>37</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -153,17 +222,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>53</Y>
+			<X>18</X>
+			<Y>37</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff3Number">
+		<ScreenID>Buff3No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>37</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S4</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff4_Button">
@@ -171,11 +263,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>69</Y>
+			<Y>49</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -194,17 +286,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>70</Y>
+			<X>18</X>
+			<Y>49</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff4Number">
+		<ScreenID>Buff4No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S5</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff5_Button">
@@ -212,11 +327,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>86</Y>
+			<Y>61</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -235,17 +350,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>87</Y>
+			<X>18</X>
+			<Y>61</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff5Number">
+		<ScreenID>Buff5No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>61</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S6</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff6_Button">
@@ -253,11 +391,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>103</Y>
+			<Y>73</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -276,17 +414,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>104</Y>
+			<X>18</X>
+			<Y>73</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff6Number">
+		<ScreenID>Buff6No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>73</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S7</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff7_Button">
@@ -294,11 +455,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>120</Y>
+			<Y>85</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -317,17 +478,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>121</Y>
+			<X>18</X>
+			<Y>85</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff7Number">
+		<ScreenID>Buff7No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>85</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S8</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff8_Button">
@@ -335,11 +519,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>137</Y>
+			<Y>97</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -358,17 +542,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>138</Y>
+			<X>18</X>
+			<Y>97</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff8Number">
+		<ScreenID>Buff8No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>97</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S9</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff9_Button">
@@ -376,11 +583,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>154</Y>
+			<Y>109</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -399,17 +606,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>155</Y>
+			<X>18</X>
+			<Y>109</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff9Number">
+		<ScreenID>Buff9No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S10</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff10_Button">
@@ -417,11 +647,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>171</Y>
+			<Y>121</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -440,17 +670,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>172</Y>
+			<X>18</X>
+			<Y>121</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff10Number">
+		<ScreenID>Buff10No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>121</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S11</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff11_Button">
@@ -458,11 +711,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>188</Y>
+			<Y>133</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -481,17 +734,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>189</Y>
+			<X>18</X>
+			<Y>133</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="SDBW_Buff11Number">
+		<ScreenID>Buff11No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>133</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S12</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Button item="SDBW_Buff12_Button">
@@ -499,11 +775,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>205</Y>
+			<Y>145</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -522,28 +798,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>206</Y>
+			<X>18</X>
+			<Y>145</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff12Number">
+		<ScreenID>Buff12No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S13</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff13_Button">
 		<ScreenID>Buff13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>222</Y>
+			<Y>157</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -562,28 +862,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>223</Y>
+			<X>18</X>
+			<Y>157</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff13Number">
+		<ScreenID>Buff13No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>157</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S14</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff14_Button">
 		<ScreenID>Buff14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>239</Y>
+			<Y>169</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -602,28 +926,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>240</Y>
+			<X>18</X>
+			<Y>169</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff15_Button">
+	<Label item="SDBW_Buff14Number">
+		<ScreenID>Buff14No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>169</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S15</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff15_Button">
 		<ScreenID>Buff15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>256</Y>
+			<Y>181</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -642,28 +990,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>257</Y>
+			<X>18</X>
+			<Y>181</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff16_Button">
+	<Label item="SDBW_Buff15Number">
+		<ScreenID>Buff15No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>181</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S16</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff16_Button">
 		<ScreenID>Buff16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>273</Y>
+			<Y>193</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -682,28 +1054,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>274</Y>
+			<X>18</X>
+			<Y>193</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff17_Button">
+	<Label item="SDBW_Buff16Number">
+		<ScreenID>Buff16No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>193</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S17</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff17_Button">
 		<ScreenID>Buff17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>290</Y>
+			<Y>205</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -722,28 +1118,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>291</Y>
+			<X>18</X>
+			<Y>205</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff18_Button">
+	<Label item="SDBW_Buff17Number">
+		<ScreenID>Buff17No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>205</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S18</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff18_Button">
 		<ScreenID>Buff18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>307</Y>
+			<Y>217</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -762,28 +1182,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>308</Y>
+			<X>18</X>
+			<Y>217</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff19_Button">
+	<Label item="SDBW_Buff18Number">
+		<ScreenID>Buff18No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>217</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S19</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff19_Button">
 		<ScreenID>Buff19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>324</Y>
+			<Y>229</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -802,28 +1246,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>325</Y>
+			<X>18</X>
+			<Y>229</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-        <Button item="SDBW_Buff20_Button">
+	<Label item="SDBW_Buff19Number">
+		<ScreenID>Buff19No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>229</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S20</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Button item="SDBW_Buff20_Button">
 		<ScreenID>Buff20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>324</Y>
+			<Y>241</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -842,28 +1310,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>342</Y>
+			<X>18</X>
+			<Y>241</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff20Number">
+		<ScreenID>Buff20No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>241</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S21</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff21_Button">
 		<ScreenID>Buff21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>358</Y>
+			<Y>253</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -882,28 +1374,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>359</Y>
+			<X>18</X>
+			<Y>253</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff21Number">
+		<ScreenID>Buff21No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>253</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S22</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff22_Button">
 		<ScreenID>Buff22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>375</Y>
+			<Y>265</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -922,28 +1438,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>376</Y>
+			<X>18</X>
+			<Y>265</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff22Number">
+		<ScreenID>Buff22No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>265</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S23</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff23_Button">
 		<ScreenID>Buff23</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>392</Y>
+			<Y>277</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -962,28 +1502,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>393</Y>
+			<X>18</X>
+			<Y>277</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff23Number">
+		<ScreenID>Buff23No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>277</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S24</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff24_Button">
 		<ScreenID>Buff24</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>409</Y>
+			<Y>289</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1002,28 +1566,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>410</Y>
+			<X>18</X>
+			<Y>289</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff24Number">
+		<ScreenID>Buff24No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>289</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S25</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff25_Button">
 		<ScreenID>Buff25</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>426</Y>
+			<Y>301</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1042,28 +1630,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>427</Y>
+			<X>18</X>
+			<Y>301</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff25Number">
+		<ScreenID>Buff25No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S26</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff26_Button">
 		<ScreenID>Buff26</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>443</Y>
+			<Y>313</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1082,28 +1694,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>444</Y>
+			<X>18</X>
+			<Y>313</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff26Number">
+		<ScreenID>Buff26No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>313</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S27</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff27_Button">
 		<ScreenID>Buff27</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>460</Y>
+			<Y>325</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1122,28 +1758,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>461</Y>
+			<X>18</X>
+			<Y>325</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff27Number">
+		<ScreenID>Buff27No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>325</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S28</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff28_Button">
 		<ScreenID>Buff28</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>477</Y>
+			<Y>337</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1162,28 +1822,52 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>478</Y>
+			<X>18</X>
+			<Y>337</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
+	<Label item="SDBW_Buff28Number">
+		<ScreenID>Buff28No</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Style_Tooltip>false</Style_Tooltip>
+		<Location>
+			<X>100</X>
+			<Y>337</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>S29</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
 	<Button item="SDBW_Buff29_Button">
 		<ScreenID>Buff29</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>494</Y>
+			<Y>349</Y>
 		</Location>
 		<Size>
-			<CX>123</CX>
-			<CY>16</CY>
+			<CX>122</CX>
+			<CY>12</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1202,684 +1886,17 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>19</X>
-			<Y>495</Y>
+			<X>18</X>
+			<Y>349</Y>
 		</Location>
 		<Size>
-			<CX>103</CX>
-			<CY>14</CY>
+			<CX>104</CX>
+			<CY>12</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff0Number">
-		<ScreenID>Buff0No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>1</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S1</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff1Number">
-		<ScreenID>Buff1No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>18</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S2</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff2Number">
-		<ScreenID>Buff2No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>35</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S3</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff3Number">
-		<ScreenID>Buff3No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>52</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S4</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff4Number">
-		<ScreenID>Buff4No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>69</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S5</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff5Number">
-		<ScreenID>Buff5No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>86</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S6</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff6Number">
-		<ScreenID>Buff6No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>103</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S7</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff7Number">
-		<ScreenID>Buff7No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>120</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S8</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff8Number">
-		<ScreenID>Buff8No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>137</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S9</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff9Number">
-		<ScreenID>Buff9No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>154</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S10</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff10Number">
-		<ScreenID>Buff10No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>171</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S11</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff11Number">
-		<ScreenID>Buff11No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>188</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S12</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff12Number">
-		<ScreenID>Buff12No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>205</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S13</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff13Number">
-		<ScreenID>Buff13No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>222</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S14</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff14Number">
-		<ScreenID>Buff14No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>239</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S15</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff15Number">
-		<ScreenID>Buff15No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>256</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S16</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff16Number">
-		<ScreenID>Buff16No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>273</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S17</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff17Number">
-		<ScreenID>Buff17No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>290</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S18</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff18Number">
-		<ScreenID>Buff18No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>307</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S19</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff19Number">
-		<ScreenID>Buff19No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>324</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S20</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff20Number">
-		<ScreenID>Buff20No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>341</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S21</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-        <Label item="SDBW_Buff21Number">
-		<ScreenID>Buff21No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>358</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S22</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff22Number">
-		<ScreenID>Buff22No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>375</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S23</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff23Number">
-		<ScreenID>Buff23No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>392</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S24</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff24Number">
-		<ScreenID>Buff24No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>409</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S25</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff25Number">
-		<ScreenID>Buff25No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>426</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S26</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff26Number">
-		<ScreenID>Buff26No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>443</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S27</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff27Number">
-		<ScreenID>Buff27No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>460</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S28</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
-	<Label item="SDBW_Buff28Number">
-		<ScreenID>Buff28No</ScreenID>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Style_Tooltip>false</Style_Tooltip>
-		<Location>
-			<X>100</X>
-			<Y>477</Y>
-		</Location>
-		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>S29</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
 	</Label>
 	<Label item="SDBW_Buff29Number">
 		<ScreenID>Buff29No</ScreenID>
@@ -1888,11 +1905,11 @@
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
 			<X>100</X>
-			<Y>494</Y>
+			<Y>349</Y>
 		</Location>
 		<Size>
-			<CX>23</CX>
-			<CY>14</CY>
+			<CX>22</CX>
+			<CY>12</CY>
 		</Size>
 		<Text>S30</Text>
 		<TextColor>
@@ -1904,12 +1921,13 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
+
 	<Screen item="ShortDurationBuffWindow">
 		<Text>Songs</Text>
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>465</X>
-			<Y>240</Y>
+			<Y>361</Y>
 		</Location>
 		<Size>
 			<CX>132</CX>
@@ -1922,97 +1940,97 @@
 		<Style_Minimizebox>true</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
-        <Escapable>false</Escapable>
-        <Style_ClientMovable>true</Style_ClientMovable>
+    <Escapable>false</Escapable>
+    <Style_ClientMovable>true</Style_ClientMovable>
 		<Pieces>SDBW_Buff0_Button</Pieces>
 		<Pieces>SDBW_Buff0</Pieces>
+		<Pieces>SDBW_Buff0Number</Pieces>
 		<Pieces>SDBW_Buff1_Button</Pieces>
 		<Pieces>SDBW_Buff1</Pieces>
+		<Pieces>SDBW_Buff1Number</Pieces>
 		<Pieces>SDBW_Buff2_Button</Pieces>
 		<Pieces>SDBW_Buff2</Pieces>
+		<Pieces>SDBW_Buff2Number</Pieces>
 		<Pieces>SDBW_Buff3_Button</Pieces>
 		<Pieces>SDBW_Buff3</Pieces>
+		<Pieces>SDBW_Buff3Number</Pieces>
 		<Pieces>SDBW_Buff4_Button</Pieces>
 		<Pieces>SDBW_Buff4</Pieces>
+		<Pieces>SDBW_Buff4Number</Pieces>
 		<Pieces>SDBW_Buff5_Button</Pieces>
 		<Pieces>SDBW_Buff5</Pieces>
+		<Pieces>SDBW_Buff5Number</Pieces>
 		<Pieces>SDBW_Buff6_Button</Pieces>
 		<Pieces>SDBW_Buff6</Pieces>
+		<Pieces>SDBW_Buff6Number</Pieces>
 		<Pieces>SDBW_Buff7_Button</Pieces>
 		<Pieces>SDBW_Buff7</Pieces>
+		<Pieces>SDBW_Buff7Number</Pieces>
 		<Pieces>SDBW_Buff8_Button</Pieces>
 		<Pieces>SDBW_Buff8</Pieces>
+		<Pieces>SDBW_Buff8Number</Pieces>
 		<Pieces>SDBW_Buff9_Button</Pieces>
 		<Pieces>SDBW_Buff9</Pieces>
+		<Pieces>SDBW_Buff9Number</Pieces>
 		<Pieces>SDBW_Buff10_Button</Pieces>
 		<Pieces>SDBW_Buff10</Pieces>
+		<Pieces>SDBW_Buff10Number</Pieces>
 		<Pieces>SDBW_Buff11_Button</Pieces>
 		<Pieces>SDBW_Buff11</Pieces>
+		<Pieces>SDBW_Buff11Number</Pieces>
 		<Pieces>SDBW_Buff12_Button</Pieces>
 		<Pieces>SDBW_Buff12</Pieces>
+		<Pieces>SDBW_Buff12Number</Pieces>
 		<Pieces>SDBW_Buff13_Button</Pieces>
 		<Pieces>SDBW_Buff13</Pieces>
+		<Pieces>SDBW_Buff13Number</Pieces>
 		<Pieces>SDBW_Buff14_Button</Pieces>
 		<Pieces>SDBW_Buff14</Pieces>
-        <Pieces>SDBW_Buff15_Button</Pieces>
+		<Pieces>SDBW_Buff14Number</Pieces>
+    <Pieces>SDBW_Buff15_Button</Pieces>
 		<Pieces>SDBW_Buff15</Pieces>
-        <Pieces>SDBW_Buff16_Button</Pieces>
+    <Pieces>SDBW_Buff15Number</Pieces>
+    <Pieces>SDBW_Buff16_Button</Pieces>
 		<Pieces>SDBW_Buff16</Pieces>
-        <Pieces>SDBW_Buff17_Button</Pieces>
+    <Pieces>SDBW_Buff16Number</Pieces>
+    <Pieces>SDBW_Buff17_Button</Pieces>
 		<Pieces>SDBW_Buff17</Pieces>
-        <Pieces>SDBW_Buff18_Button</Pieces>
+    <Pieces>SDBW_Buff17Number</Pieces>
+    <Pieces>SDBW_Buff18_Button</Pieces>
  		<Pieces>SDBW_Buff18</Pieces>
-        <Pieces>SDBW_Buff19_Button</Pieces>
+    <Pieces>SDBW_Buff18Number</Pieces>
+    <Pieces>SDBW_Buff19_Button</Pieces>
 		<Pieces>SDBW_Buff19</Pieces>
+    <Pieces>SDBW_Buff19Number</Pieces>
 		<Pieces>SDBW_Buff20_Button</Pieces>
 		<Pieces>SDBW_Buff20</Pieces>
+		<Pieces>SDBW_Buff20Number</Pieces>
 		<Pieces>SDBW_Buff21_Button</Pieces>
 		<Pieces>SDBW_Buff21</Pieces>
+		<Pieces>SDBW_Buff21Number</Pieces>
 		<Pieces>SDBW_Buff22_Button</Pieces>
 		<Pieces>SDBW_Buff22</Pieces>
+		<Pieces>SDBW_Buff22Number</Pieces>
 		<Pieces>SDBW_Buff23_Button</Pieces>
 		<Pieces>SDBW_Buff23</Pieces>
+		<Pieces>SDBW_Buff23Number</Pieces>
 		<Pieces>SDBW_Buff24_Button</Pieces>
 		<Pieces>SDBW_Buff24</Pieces>
+		<Pieces>SDBW_Buff24Number</Pieces>
 		<Pieces>SDBW_Buff25_Button</Pieces>
 		<Pieces>SDBW_Buff25</Pieces>
+		<Pieces>SDBW_Buff25Number</Pieces>
 		<Pieces>SDBW_Buff26_Button</Pieces>
 		<Pieces>SDBW_Buff26</Pieces>
+		<Pieces>SDBW_Buff26Number</Pieces>
 		<Pieces>SDBW_Buff27_Button</Pieces>
 		<Pieces>SDBW_Buff27</Pieces>
+		<Pieces>SDBW_Buff27Number</Pieces>
 		<Pieces>SDBW_Buff28_Button</Pieces>
 		<Pieces>SDBW_Buff28</Pieces>
+		<Pieces>SDBW_Buff28Number</Pieces>
 		<Pieces>SDBW_Buff29_Button</Pieces>
 		<Pieces>SDBW_Buff29</Pieces>
-		<Pieces>SDBW_Buff0Number</Pieces>
-		<Pieces>SDBW_Buff1Number</Pieces>
-		<Pieces>SDBW_Buff2Number</Pieces>
-		<Pieces>SDBW_Buff3Number</Pieces>
-		<Pieces>SDBW_Buff4Number</Pieces>
-		<Pieces>SDBW_Buff5Number</Pieces>
-		<Pieces>SDBW_Buff6Number</Pieces>
-		<Pieces>SDBW_Buff7Number</Pieces>
-		<Pieces>SDBW_Buff8Number</Pieces>
-		<Pieces>SDBW_Buff9Number</Pieces>
-		<Pieces>SDBW_Buff10Number</Pieces>
-		<Pieces>SDBW_Buff11Number</Pieces>
-		<Pieces>SDBW_Buff12Number</Pieces>
-		<Pieces>SDBW_Buff13Number</Pieces>
-		<Pieces>SDBW_Buff14Number</Pieces>
-        <Pieces>SDBW_Buff15Number</Pieces>
-        <Pieces>SDBW_Buff16Number</Pieces>
-        <Pieces>SDBW_Buff17Number</Pieces>
-        <Pieces>SDBW_Buff18Number</Pieces>
-        <Pieces>SDBW_Buff19Number</Pieces>
-		<Pieces>SDBW_Buff20Number</Pieces>
-		<Pieces>SDBW_Buff21Number</Pieces>
-		<Pieces>SDBW_Buff22Number</Pieces>
-		<Pieces>SDBW_Buff23Number</Pieces>
-		<Pieces>SDBW_Buff24Number</Pieces>
-		<Pieces>SDBW_Buff25Number</Pieces>
-		<Pieces>SDBW_Buff26Number</Pieces>
-		<Pieces>SDBW_Buff27Number</Pieces>
-		<Pieces>SDBW_Buff28Number</Pieces>
 		<Pieces>SDBW_Buff29Number</Pieces>
 	</Screen>
 </XML>
