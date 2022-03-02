@@ -7,11 +7,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>1</Y>
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -20,22 +20,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff0">
 		<ScreenID>Buff0Label</ScreenID>
 		<EQType>500</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
+			<X>22</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -48,12 +48,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>1</Y>
+			<X>165</X>
+			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>1</Text>
 		<TextColor>
@@ -71,11 +71,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>13</Y>
+			<Y>16</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -84,22 +84,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff1">
 		<ScreenID>Buff1Label</ScreenID>
 		<EQType>501</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>13</Y>
+			<X>22</X>
+			<Y>16</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -112,14 +112,14 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>13</Y>
+			<X>165</X>
+			<Y>16</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
-		<Text>2</Text>
+		<Text>3</Text>
 		<TextColor>
 			<R>0</R>
 			<G>255</G>
@@ -135,11 +135,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>25</Y>
+			<Y>32</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -148,22 +148,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff2">
 		<ScreenID>Buff2Label</ScreenID>
 		<EQType>502</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>25</Y>
+			<X>22</X>
+			<Y>32</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -176,12 +176,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>25</Y>
+			<X>165</X>
+			<Y>32</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>3</Text>
 		<TextColor>
@@ -199,11 +199,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>37</Y>
+			<Y>48</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -212,22 +212,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff3">
 		<ScreenID>Buff3Label</ScreenID>
 		<EQType>503</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>37</Y>
+			<X>22</X>
+			<Y>48</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -240,12 +240,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>37</Y>
+			<X>165</X>
+			<Y>48</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>4</Text>
 		<TextColor>
@@ -263,11 +263,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>49</Y>
+			<Y>64</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -276,22 +276,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff4">
 		<ScreenID>Buff4Label</ScreenID>
 		<EQType>504</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>49</Y>
+			<X>22</X>
+			<Y>64</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -304,12 +304,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>49</Y>
+			<X>165</X>
+			<Y>64</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>5</Text>
 		<TextColor>
@@ -327,11 +327,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>61</Y>
+			<Y>80</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -340,22 +340,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff5">
 		<ScreenID>Buff5Label</ScreenID>
 		<EQType>505</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>61</Y>
+			<X>22</X>
+			<Y>80</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -368,12 +368,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>61</Y>
+			<X>165</X>
+			<Y>80</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>6</Text>
 		<TextColor>
@@ -391,11 +391,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>73</Y>
+			<Y>96</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
     <Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -404,22 +404,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff6">
 		<ScreenID>Buff6Label</ScreenID>
 		<EQType>506</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>73</Y>
+			<X>22</X>
+			<Y>96</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -432,12 +432,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>73</Y>
+			<X>165</X>
+			<Y>96</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>7</Text>
 		<TextColor>
@@ -455,11 +455,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>85</Y>
+			<Y>112</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -468,22 +468,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff7">
 		<ScreenID>Buff7Label</ScreenID>
 		<EQType>507</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>85</Y>
+			<X>22</X>
+			<Y>112</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -496,12 +496,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>86</Y>
+			<X>165</X>
+			<Y>112</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>8</Text>
 		<TextColor>
@@ -519,11 +519,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>97</Y>
+			<Y>128</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -532,22 +532,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff8">
 		<ScreenID>Buff8Label</ScreenID>
 		<EQType>508</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>97</Y>
+			<X>22</X>
+			<Y>128</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -560,12 +560,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>97</Y>
+			<X>165</X>
+			<Y>128</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>9</Text>
 		<TextColor>
@@ -583,11 +583,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>109</Y>
+			<Y>144</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -596,22 +596,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff9">
 		<ScreenID>Buff9Label</ScreenID>
 		<EQType>509</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>109</Y>
+			<X>22</X>
+			<Y>144</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -624,12 +624,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>109</Y>
+			<X>165</X>
+			<Y>144</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>10</Text>
 		<TextColor>
@@ -647,11 +647,11 @@
 		<RelativePosition>true</RelativePosition>
 			<Location>
 			<X>2</X>
-			<Y>121</Y>
+			<Y>160</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -660,22 +660,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff10">
 		<ScreenID>Buff10Label</ScreenID>
 		<EQType>510</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>121</Y>
+			<X>22</X>
+			<Y>160</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -688,12 +688,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>121</Y>
+			<X>165</X>
+			<Y>160</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>11</Text>
 		<TextColor>
@@ -711,11 +711,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>133</Y>
+			<Y>176</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -724,22 +724,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff11">
 		<ScreenID>Buff11Label</ScreenID>
 		<EQType>511</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>133</Y>
+			<X>22</X>
+			<Y>176</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -752,12 +752,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>133</Y>
+			<X>165</X>
+			<Y>176</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>12</Text>
 		<TextColor>
@@ -775,11 +775,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>145</Y>
+			<Y>192</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -788,22 +788,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff12">
 		<ScreenID>Buff12Label</ScreenID>
 		<EQType>512</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>145</Y>
+			<X>22</X>
+			<Y>192</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -816,12 +816,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>145</Y>
+			<X>165</X>
+			<Y>192</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>13</Text>
 		<TextColor>
@@ -839,11 +839,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>157</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -852,22 +852,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff13">
 		<ScreenID>Buff13Label</ScreenID>
 		<EQType>513</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>157</Y>
+			<X>22</X>
+			<Y>208</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -880,12 +880,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>157</Y>
+			<X>165</X>
+			<Y>208</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>14</Text>
 		<TextColor>
@@ -903,11 +903,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>169</Y>
+			<Y>224</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -916,22 +916,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff14">
 		<ScreenID>Buff14Label</ScreenID>
 		<EQType>514</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>169</Y>
+			<X>22</X>
+			<Y>224</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -944,12 +944,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>169</Y>
+			<X>165</X>
+			<Y>224</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>15</Text>
 		<TextColor>
@@ -967,11 +967,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>181</Y>
+			<Y>240</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -980,22 +980,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff15">
 		<ScreenID>Buff15Label</ScreenID>
 		<EQType>515</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>181</Y>
+			<X>22</X>
+			<Y>240</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1008,12 +1008,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>181</Y>
+			<X>165</X>
+			<Y>240</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>16</Text>
 		<TextColor>
@@ -1031,11 +1031,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>193</Y>
+			<Y>256</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1044,22 +1044,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff16">
 		<ScreenID>Buff16Label</ScreenID>
 		<EQType>516</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>193</Y>
+			<X>22</X>
+			<Y>256</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1072,12 +1072,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>193</Y>
+			<X>165</X>
+			<Y>256</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>17</Text>
 		<TextColor>
@@ -1095,11 +1095,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>205</Y>
+			<Y>272</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1108,22 +1108,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff17">
 		<ScreenID>Buff17Label</ScreenID>
 		<EQType>517</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>205</Y>
+			<X>22</X>
+			<Y>272</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1136,12 +1136,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>205</Y>
+			<X>165</X>
+			<Y>272</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>18</Text>
 		<TextColor>
@@ -1159,11 +1159,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>217</Y>
+			<Y>288</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1172,22 +1172,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff18">
 		<ScreenID>Buff18Label</ScreenID>
 		<EQType>518</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>217</Y>
+			<X>22</X>
+			<Y>288</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1200,12 +1200,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>217</Y>
+			<X>165</X>
+			<Y>288</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>19</Text>
 		<TextColor>
@@ -1223,11 +1223,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>229</Y>
+			<Y>304</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1236,22 +1236,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff19">
 		<ScreenID>Buff19Label</ScreenID>
 		<EQType>519</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>229</Y>
+			<X>22</X>
+			<Y>304</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1264,12 +1264,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>229</Y>
+			<X>165</X>
+			<Y>304</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>20</Text>
 		<TextColor>
@@ -1287,11 +1287,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>241</Y>
+			<Y>320</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1300,22 +1300,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff20">
 		<ScreenID>Buff20Label</ScreenID>
 		<EQType>520</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>241</Y>
+			<X>22</X>
+			<Y>320</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1328,12 +1328,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>241</Y>
+			<X>165</X>
+			<Y>320</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>21</Text>
 		<TextColor>
@@ -1351,11 +1351,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>253</Y>
+			<Y>336</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1364,22 +1364,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff21">
 		<ScreenID>Buff21Label</ScreenID>
 		<EQType>521</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>253</Y>
+			<X>22</X>
+			<Y>336</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1392,12 +1392,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>253</Y>
+			<X>165</X>
+			<Y>336</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>22</Text>
 		<TextColor>
@@ -1415,11 +1415,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>265</Y>
+			<Y>352</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1428,22 +1428,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff22">
 		<ScreenID>Buff22Label</ScreenID>
 		<EQType>522</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>265</Y>
+			<X>22</X>
+			<Y>352</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1456,12 +1456,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>265</Y>
+			<X>165</X>
+			<Y>352</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>23</Text>
 		<TextColor>
@@ -1479,11 +1479,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>277</Y>
+			<Y>368</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1492,22 +1492,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff23">
 		<ScreenID>Buff23Label</ScreenID>
 		<EQType>523</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>277</Y>
+			<X>22</X>
+			<Y>368</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1520,12 +1520,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>277</Y>
+			<X>165</X>
+			<Y>368</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>24</Text>
 		<TextColor>
@@ -1543,11 +1543,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>289</Y>
+			<Y>384</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1556,22 +1556,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff24">
 		<ScreenID>Buff24Label</ScreenID>
 		<EQType>524</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>289</Y>
+			<X>22</X>
+			<Y>384</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1584,12 +1584,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>289</Y>
+			<X>165</X>
+			<Y>384</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>25</Text>
 		<TextColor>
@@ -1607,11 +1607,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>301</Y>
+			<Y>400</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1620,22 +1620,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff25">
 		<ScreenID>Buff25Label</ScreenID>
 		<EQType>525</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>301</Y>
+			<X>22</X>
+			<Y>400</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1648,12 +1648,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>301</Y>
+			<X>165</X>
+			<Y>400</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>26</Text>
 		<TextColor>
@@ -1671,11 +1671,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>313</Y>
+			<Y>416</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1684,22 +1684,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff26">
 		<ScreenID>Buff26Label</ScreenID>
 		<EQType>526</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>313</Y>
+			<X>22</X>
+			<Y>416</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1712,12 +1712,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>313</Y>
+			<X>165</X>
+			<Y>416</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>27</Text>
 		<TextColor>
@@ -1735,11 +1735,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>325</Y>
+			<Y>432</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1748,22 +1748,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff27">
 		<ScreenID>Buff27Label</ScreenID>
 		<EQType>527</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>325</Y>
+			<X>22</X>
+			<Y>432</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1776,12 +1776,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>325</Y>
+			<X>165</X>
+			<Y>432</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>28</Text>
 		<TextColor>
@@ -1799,11 +1799,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>337</Y>
+			<Y>448</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1812,22 +1812,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff28">
 		<ScreenID>Buff28Label</ScreenID>
 		<EQType>528</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>337</Y>
+			<X>22</X>
+			<Y>448</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1840,12 +1840,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>337</Y>
+			<X>165</X>
+			<Y>448</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>29</Text>
 		<TextColor>
@@ -1863,11 +1863,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>349</Y>
+			<Y>464</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1876,22 +1876,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff29">
 		<ScreenID>Buff29Label</ScreenID>
 		<EQType>529</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>349</Y>
+			<X>22</X>
+			<Y>464</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1904,12 +1904,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>349</Y>
+			<X>165</X>
+			<Y>464</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>30</Text>
 		<TextColor>
@@ -1927,11 +1927,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>361</Y>
+			<Y>480</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -1940,22 +1940,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff30">
 		<ScreenID>Buff30Label</ScreenID>
 		<EQType>530</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>361</Y>
+			<X>22</X>
+			<Y>480</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -1968,12 +1968,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>361</Y>
+			<X>165</X>
+			<Y>480</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>31</Text>
 		<TextColor>
@@ -1991,11 +1991,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>373</Y>
+			<Y>496</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2004,22 +2004,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff31">
 		<ScreenID>Buff31Label</ScreenID>
 		<EQType>531</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>373</Y>
+			<X>22</X>
+			<Y>496</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2032,12 +2032,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>373</Y>
+			<X>165</X>
+			<Y>496</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>32</Text>
 		<TextColor>
@@ -2055,11 +2055,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>385</Y>
+			<Y>512</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2068,22 +2068,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff32">
 		<ScreenID>Buff32Label</ScreenID>
 		<EQType>532</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>385</Y>
+			<X>22</X>
+			<Y>512</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2096,12 +2096,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>385</Y>
+			<X>165</X>
+			<Y>512</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>33</Text>
 		<TextColor>
@@ -2119,11 +2119,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>397</Y>
+			<Y>528</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2132,22 +2132,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff33">
 		<ScreenID>Buff33Label</ScreenID>
 		<EQType>533</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>397</Y>
+			<X>22</X>
+			<Y>528</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2160,12 +2160,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>397</Y>
+			<X>165</X>
+			<Y>528</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>34</Text>
 		<TextColor>
@@ -2183,11 +2183,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>409</Y>
+			<Y>544</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2196,22 +2196,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff34">
 		<ScreenID>Buff34Label</ScreenID>
 		<EQType>534</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>409</Y>
+			<X>22</X>
+			<Y>544</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2224,12 +2224,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>409</Y>
+			<X>165</X>
+			<Y>544</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>35</Text>
 		<TextColor>
@@ -2247,11 +2247,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>421</Y>
+			<Y>560</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2260,22 +2260,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff35">
 		<ScreenID>Buff35Label</ScreenID>
 		<EQType>535</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>421</Y>
+			<X>22</X>
+			<Y>560</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2288,12 +2288,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>421</Y>
+			<X>165</X>
+			<Y>560</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>36</Text>
 		<TextColor>
@@ -2311,11 +2311,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>433</Y>
+			<Y>576</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2324,22 +2324,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff36">
 		<ScreenID>Buff36Label</ScreenID>
 		<EQType>536</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>433</Y>
+			<X>22</X>
+			<Y>576</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2352,12 +2352,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>433</Y>
+			<X>165</X>
+			<Y>576</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>37</Text>
 		<TextColor>
@@ -2375,11 +2375,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>445</Y>
+			<Y>592</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2388,22 +2388,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff37">
 		<ScreenID>Buff37Label</ScreenID>
 		<EQType>537</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>445</Y>
+			<X>22</X>
+			<Y>592</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2416,12 +2416,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>445</Y>
+			<X>165</X>
+			<Y>592</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>38</Text>
 		<TextColor>
@@ -2439,11 +2439,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>457</Y>
+			<Y>608</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2452,22 +2452,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff38">
 		<ScreenID>Buff38Label</ScreenID>
 		<EQType>538</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>457</Y>
+			<X>22</X>
+			<Y>608</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2480,12 +2480,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>457</Y>
+			<X>165</X>
+			<Y>608</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>39</Text>
 		<TextColor>
@@ -2503,11 +2503,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>469</Y>
+			<Y>624</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2516,22 +2516,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff39">
 		<ScreenID>Buff39Label</ScreenID>
 		<EQType>539</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>469</Y>
+			<X>22</X>
+			<Y>624</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2544,12 +2544,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>469</Y>
+			<X>165</X>
+			<Y>624</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>40</Text>
 		<TextColor>
@@ -2567,11 +2567,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>481</Y>
+			<Y>640</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2580,22 +2580,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff40">
 		<ScreenID>Buff40Label</ScreenID>
 		<EQType>540</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>481</Y>
+			<X>22</X>
+			<Y>640</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2608,12 +2608,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>481</Y>
+			<X>165</X>
+			<Y>640</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>41</Text>
 		<TextColor>
@@ -2631,11 +2631,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>493</Y>
+			<Y>656</Y>
 		</Location>
 		<Size>
 			<CX>183</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</Size>
 		<Template>BDT_BlueBuff</Template>
 		<DecalOffset>
@@ -2644,22 +2644,22 @@
 		</DecalOffset>
 		<DecalSize>
 			<CX>16</CX>
-			<CY>12</CY>
+			<CY>16</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff41">
 		<ScreenID>Buff41Label</ScreenID>
 		<EQType>541</EQType>
-		<Font>2</Font>
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>18</X>
-			<Y>493</Y>
+			<X>22</X>
+			<Y>656</Y>
 		</Location>
 		<Size>
-			<CX>165</CX>
-			<CY>12</CY>
+			<CX>140</CX>
+			<CY>16</CY>
 		</Size>
 		<Text></Text>
 		<NoWrap>true</NoWrap>
@@ -2672,12 +2672,12 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Tooltip>false</Style_Tooltip>
 		<Location>
-			<X>161</X>
-			<Y>493</Y>
+			<X>165</X>
+			<Y>656</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>12</CY>
+			<CX>16</CX>
+			<CY>16</CY>
 		</Size>
 		<Text>42</Text>
 		<TextColor>
