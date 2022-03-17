@@ -7,10 +7,10 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>3</X>
-			<Y>24</Y>
+			<Y>32</Y>
 		</Location>
 		<Size>
-			<CX>324</CX>
+			<CX>352</CX>
 			<CY>10</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
@@ -72,8 +72,8 @@
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>360</CX>
-			<CY>55</CY>
+			<CX>384</CX>
+			<CY>64</CY>
 		</Size>
 		<Text>Casting Time</Text>
 		<Style_VScroll>false</Style_VScroll>
