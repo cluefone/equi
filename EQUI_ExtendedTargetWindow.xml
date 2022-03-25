@@ -4,7 +4,7 @@
 	<Label item="ETW_AggroPct0">
 		<ScreenID>ETW_AggroPct0</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -14,11 +14,11 @@
 		<EQType>314</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge0">
@@ -42,15 +42,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge0">
@@ -60,7 +60,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>62</EQType>
@@ -69,12 +69,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge0">
@@ -93,12 +93,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel0">
@@ -111,17 +111,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>151</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -135,16 +135,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -156,17 +156,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext0">
@@ -174,8 +174,8 @@
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Size>
-			<CX>127</CX>
-			<CY>35</CY>
+			<CX>115</CX>
+			<CY>23</CY>
 		</Size>
 		<Text/>
 		<Style_Transparent>true</Style_Transparent>
@@ -188,8 +188,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge0</Pieces>
-		<Pieces>ETW_ManaGauge0</Pieces>
 		<Pieces>ETW_STAGauge0</Pieces>
+		<Pieces>ETW_ManaGauge0</Pieces>
 		<Pieces>ETW_HPLabel0</Pieces>
 		<Pieces>ETW_HPPercLabel0</Pieces>
 		<Pieces>ETW_Role0</Pieces>
@@ -198,7 +198,7 @@
 	<Label item="ETW_AggroPct1">
 		<ScreenID>ETW_AggroPct1</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -208,11 +208,11 @@
 		<EQType>315</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge1">
@@ -236,15 +236,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge1">
@@ -254,7 +254,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>63</EQType>
@@ -263,12 +263,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge1">
@@ -287,12 +287,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel1">
@@ -305,17 +305,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>152</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -329,16 +329,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -350,17 +350,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext1">
@@ -368,8 +368,8 @@
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Size>
-			<CX>127</CX>
-			<CY>35</CY>
+			<CX>115</CX>
+			<CY>23</CY>
 		</Size>
 		<Text/>
 		<Style_Transparent>true</Style_Transparent>
@@ -382,8 +382,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge1</Pieces>
-		<Pieces>ETW_ManaGauge1</Pieces>
 		<Pieces>ETW_STAGauge1</Pieces>
+		<Pieces>ETW_ManaGauge1</Pieces>
 		<Pieces>ETW_HPLabel1</Pieces>
 		<Pieces>ETW_HPPercLabel1</Pieces>
 		<Pieces>ETW_Role1</Pieces>
@@ -392,7 +392,7 @@
 	<Label item="ETW_AggroPct2">
 		<ScreenID>ETW_AggroPct2</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -402,11 +402,11 @@
 		<EQType>316</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge2">
@@ -430,15 +430,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge2">
@@ -448,7 +448,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>64</EQType>
@@ -457,12 +457,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge2">
@@ -481,12 +481,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel2">
@@ -499,17 +499,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>153</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -523,16 +523,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -544,17 +544,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext2">
@@ -576,8 +576,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge2</Pieces>
-		<Pieces>ETW_ManaGauge2</Pieces>
 		<Pieces>ETW_STAGauge2</Pieces>
+		<Pieces>ETW_ManaGauge2</Pieces>
 		<Pieces>ETW_HPLabel2</Pieces>
 		<Pieces>ETW_HPPercLabel2</Pieces>
 		<Pieces>ETW_Role2</Pieces>
@@ -586,7 +586,7 @@
 	<Label item="ETW_AggroPct3">
 		<ScreenID>ETW_AggroPct3</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -596,11 +596,11 @@
 		<EQType>317</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge3">
@@ -624,15 +624,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge3">
@@ -642,7 +642,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>65</EQType>
@@ -651,12 +651,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge3">
@@ -675,12 +675,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel3">
@@ -693,17 +693,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>154</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -717,16 +717,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -738,17 +738,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext3">
@@ -770,8 +770,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge3</Pieces>
-		<Pieces>ETW_ManaGauge3</Pieces>
 		<Pieces>ETW_STAGauge3</Pieces>
+		<Pieces>ETW_ManaGauge3</Pieces>
 		<Pieces>ETW_HPLabel3</Pieces>
 		<Pieces>ETW_HPPercLabel3</Pieces>
 		<Pieces>ETW_Role3</Pieces>
@@ -780,7 +780,7 @@
 	<Label item="ETW_AggroPct4">
 		<ScreenID>ETW_AggroPct4</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -790,11 +790,11 @@
 		<EQType>318</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge4">
@@ -818,15 +818,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge4">
@@ -836,7 +836,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>66</EQType>
@@ -845,12 +845,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge4">
@@ -869,12 +869,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel4">
@@ -887,17 +887,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>155</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -911,16 +911,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -932,17 +932,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext4">
@@ -964,8 +964,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge4</Pieces>
-		<Pieces>ETW_ManaGauge4</Pieces>
 		<Pieces>ETW_STAGauge4</Pieces>
+		<Pieces>ETW_ManaGauge4</Pieces>
 		<Pieces>ETW_HPLabel4</Pieces>
 		<Pieces>ETW_HPPercLabel4</Pieces>
 		<Pieces>ETW_Role4</Pieces>
@@ -974,7 +974,7 @@
 	<Label item="ETW_AggroPct5">
 		<ScreenID>ETW_AggroPct5</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -984,11 +984,11 @@
 		<EQType>319</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge5">
@@ -1012,15 +1012,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge5">
@@ -1030,7 +1030,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>67</EQType>
@@ -1039,12 +1039,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge5">
@@ -1063,12 +1063,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel5">
@@ -1081,17 +1081,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>156</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1105,16 +1105,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1126,17 +1126,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext5">
@@ -1158,8 +1158,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge5</Pieces>
-		<Pieces>ETW_ManaGauge5</Pieces>
 		<Pieces>ETW_STAGauge5</Pieces>
+		<Pieces>ETW_ManaGauge5</Pieces>
 		<Pieces>ETW_HPLabel5</Pieces>
 		<Pieces>ETW_HPPercLabel5</Pieces>
 		<Pieces>ETW_Role5</Pieces>
@@ -1168,7 +1168,7 @@
 	<Label item="ETW_AggroPct6">
 		<ScreenID>ETW_AggroPct6</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -1178,11 +1178,11 @@
 		<EQType>320</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge6">
@@ -1206,15 +1206,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge6">
@@ -1224,7 +1224,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>68</EQType>
@@ -1233,12 +1233,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge6">
@@ -1257,12 +1257,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel6">
@@ -1275,17 +1275,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>157</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1299,16 +1299,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1320,17 +1320,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext6">
@@ -1352,18 +1352,17 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge6</Pieces>
-		<Pieces>ETW_ManaGauge6</Pieces>
 		<Pieces>ETW_STAGauge6</Pieces>
+		<Pieces>ETW_ManaGauge6</Pieces>
 		<Pieces>ETW_HPLabel6</Pieces>
 		<Pieces>ETW_HPPercLabel6</Pieces>
 		<Pieces>ETW_Role6</Pieces>
 		<Pieces>ETW_AggroPct6</Pieces>
 	</LayoutBox>
-	<!-- next set -->
 	<Label item="ETW_AggroPct7">
 		<ScreenID>ETW_AggroPct7</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -1373,11 +1372,11 @@
 		<EQType>321</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge7">
@@ -1401,15 +1400,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge7">
@@ -1419,7 +1418,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>69</EQType>
@@ -1428,12 +1427,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge7">
@@ -1452,12 +1451,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel7">
@@ -1470,17 +1469,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>158</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1494,16 +1493,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1515,17 +1514,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext7">
@@ -1547,8 +1546,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge7</Pieces>
-		<Pieces>ETW_ManaGauge7</Pieces>
 		<Pieces>ETW_STAGauge7</Pieces>
+		<Pieces>ETW_ManaGauge7</Pieces>
 		<Pieces>ETW_HPLabel7</Pieces>
 		<Pieces>ETW_HPPercLabel7</Pieces>
 		<Pieces>ETW_Role7</Pieces>
@@ -1557,7 +1556,7 @@
 	<Label item="ETW_AggroPct8">
 		<ScreenID>ETW_AggroPct8</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -1567,11 +1566,11 @@
 		<EQType>322</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge8">
@@ -1595,15 +1594,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge8">
@@ -1613,7 +1612,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>70</EQType>
@@ -1622,12 +1621,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge8">
@@ -1646,12 +1645,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>>
 	<Label item="ETW_HPLabel8">
@@ -1664,17 +1663,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>159</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1688,16 +1687,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1709,17 +1708,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext8">
@@ -1741,8 +1740,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge8</Pieces>
-		<Pieces>ETW_ManaGauge8</Pieces>
 		<Pieces>ETW_STAGauge8</Pieces>
+		<Pieces>ETW_ManaGauge8</Pieces>
 		<Pieces>ETW_HPLabel8</Pieces>
 		<Pieces>ETW_HPPercLabel8</Pieces>
 		<Pieces>ETW_Role8</Pieces>
@@ -1751,7 +1750,7 @@
 	<Label item="ETW_AggroPct9">
 		<ScreenID>ETW_AggroPct9</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -1761,11 +1760,11 @@
 		<EQType>323</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge9">
@@ -1789,15 +1788,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge9">
@@ -1807,7 +1806,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>71</EQType>
@@ -1816,12 +1815,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge9">
@@ -1858,17 +1857,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>160</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1882,16 +1881,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -1903,17 +1902,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext9">
@@ -1935,8 +1934,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge9</Pieces>
-		<Pieces>ETW_ManaGauge9</Pieces>
 		<Pieces>ETW_STAGauge9</Pieces>
+		<Pieces>ETW_ManaGauge9</Pieces>
 		<Pieces>ETW_HPLabel9</Pieces>
 		<Pieces>ETW_HPPercLabel9</Pieces>
 		<Pieces>ETW_Role9</Pieces>
@@ -1945,7 +1944,7 @@
 	<Label item="ETW_AggroPct10">
 		<ScreenID>ETW_AggroPct10</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -1955,11 +1954,11 @@
 		<EQType>324</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge10">
@@ -1983,15 +1982,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge10">
@@ -2001,7 +2000,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>72</EQType>
@@ -2010,12 +2009,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge10">
@@ -2034,12 +2033,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel10">
@@ -2052,17 +2051,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>161</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2076,16 +2075,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2097,17 +2096,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext10">
@@ -2129,8 +2128,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge10</Pieces>
-		<Pieces>ETW_ManaGauge10</Pieces>
 		<Pieces>ETW_STAGauge10</Pieces>
+		<Pieces>ETW_ManaGauge10</Pieces>
 		<Pieces>ETW_HPLabel10</Pieces>
 		<Pieces>ETW_HPPercLabel10</Pieces>
 		<Pieces>ETW_Role10</Pieces>
@@ -2139,7 +2138,7 @@
 	<Label item="ETW_AggroPct11">
 		<ScreenID>ETW_AggroPct11</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -2149,11 +2148,11 @@
 		<EQType>325</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge11">
@@ -2177,15 +2176,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge11">
@@ -2195,7 +2194,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>73</EQType>
@@ -2204,12 +2203,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge11">
@@ -2228,12 +2227,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel11">
@@ -2246,17 +2245,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>162</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2270,16 +2269,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2291,17 +2290,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext11">
@@ -2323,8 +2322,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge11</Pieces>
-		<Pieces>ETW_ManaGauge11</Pieces>
 		<Pieces>ETW_STAGauge11</Pieces>
+		<Pieces>ETW_ManaGauge11</Pieces>
 		<Pieces>ETW_HPLabel11</Pieces>
 		<Pieces>ETW_HPPercLabel11</Pieces>
 		<Pieces>ETW_Role11</Pieces>
@@ -2333,7 +2332,7 @@
 	<Label item="ETW_AggroPct12">
 		<ScreenID>ETW_AggroPct12</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -2343,11 +2342,11 @@
 		<EQType>326</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge12">
@@ -2371,15 +2370,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge12">
@@ -2389,7 +2388,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>74</EQType>
@@ -2398,12 +2397,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge12">
@@ -2422,12 +2421,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel12">
@@ -2440,17 +2439,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>163</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2464,16 +2463,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2485,17 +2484,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext12">
@@ -2517,8 +2516,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge12</Pieces>
-		<Pieces>ETW_ManaGauge12</Pieces>
 		<Pieces>ETW_STAGauge12</Pieces>
+		<Pieces>ETW_ManaGauge12</Pieces>
 		<Pieces>ETW_HPLabel12</Pieces>
 		<Pieces>ETW_HPPercLabel12</Pieces>
 		<Pieces>ETW_Role12</Pieces>
@@ -2527,7 +2526,7 @@
 	<Label item="ETW_AggroPct13">
 		<ScreenID>ETW_AggroPct13</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -2537,11 +2536,11 @@
 		<EQType>327</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge13">
@@ -2565,15 +2564,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge13">
@@ -2583,7 +2582,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>75</EQType>
@@ -2592,12 +2591,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge13">
@@ -2616,12 +2615,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel13">
@@ -2634,17 +2633,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>164</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2658,16 +2657,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2679,17 +2678,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext13">
@@ -2711,18 +2710,17 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge13</Pieces>
-		<Pieces>ETW_ManaGauge13</Pieces>
 		<Pieces>ETW_STAGauge13</Pieces>
+		<Pieces>ETW_ManaGauge13</Pieces>
 		<Pieces>ETW_HPLabel13</Pieces>
 		<Pieces>ETW_HPPercLabel13</Pieces>
 		<Pieces>ETW_Role13</Pieces>
 		<Pieces>ETW_AggroPct13</Pieces>
 	</LayoutBox>
-	<!-- next set -->
 	<Label item="ETW_AggroPct14">
 		<ScreenID>ETW_AggroPct14</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -2732,11 +2730,11 @@
 		<EQType>328</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge14">
@@ -2760,15 +2758,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge14">
@@ -2778,7 +2776,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>76</EQType>
@@ -2787,12 +2785,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge14">
@@ -2811,12 +2809,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel14">
@@ -2829,17 +2827,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>165</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2853,16 +2851,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -2874,17 +2872,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext14">
@@ -2906,8 +2904,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge14</Pieces>
-		<Pieces>ETW_ManaGauge14</Pieces>
 		<Pieces>ETW_STAGauge14</Pieces>
+		<Pieces>ETW_ManaGauge14</Pieces>
 		<Pieces>ETW_HPLabel14</Pieces>
 		<Pieces>ETW_HPPercLabel14</Pieces>
 		<Pieces>ETW_Role14</Pieces>
@@ -2916,7 +2914,7 @@
 	<Label item="ETW_AggroPct15">
 		<ScreenID>ETW_AggroPct15</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -2926,11 +2924,11 @@
 		<EQType>329</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge15">
@@ -2954,15 +2952,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge15">
@@ -2972,7 +2970,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>77</EQType>
@@ -2981,12 +2979,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge15">
@@ -3005,12 +3003,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel15">
@@ -3023,17 +3021,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>166</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3047,16 +3045,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3068,17 +3066,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext15">
@@ -3100,8 +3098,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge15</Pieces>
-		<Pieces>ETW_ManaGauge15</Pieces>
 		<Pieces>ETW_STAGauge15</Pieces>
+		<Pieces>ETW_ManaGauge15</Pieces>
 		<Pieces>ETW_HPLabel15</Pieces>
 		<Pieces>ETW_HPPercLabel15</Pieces>
 		<Pieces>ETW_Role15</Pieces>
@@ -3110,7 +3108,7 @@
 	<Label item="ETW_AggroPct16">
 		<ScreenID>ETW_AggroPct16</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -3120,11 +3118,11 @@
 		<EQType>330</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge16">
@@ -3148,15 +3146,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge16">
@@ -3166,7 +3164,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>78</EQType>
@@ -3175,12 +3173,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge16">
@@ -3199,12 +3197,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel16">
@@ -3217,17 +3215,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>167</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3241,16 +3239,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3262,17 +3260,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext16">
@@ -3294,8 +3292,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge16</Pieces>
-		<Pieces>ETW_ManaGauge16</Pieces>
 		<Pieces>ETW_STAGauge16</Pieces>
+		<Pieces>ETW_ManaGauge16</Pieces>
 		<Pieces>ETW_HPLabel16</Pieces>
 		<Pieces>ETW_HPPercLabel16</Pieces>
 		<Pieces>ETW_Role16</Pieces>
@@ -3304,7 +3302,7 @@
 	<Label item="ETW_AggroPct17">
 		<ScreenID>ETW_AggroPct17</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -3314,11 +3312,11 @@
 		<EQType>331</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge17">
@@ -3342,15 +3340,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge17">
@@ -3360,7 +3358,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>79</EQType>
@@ -3369,12 +3367,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge17">
@@ -3393,12 +3391,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel17">
@@ -3411,17 +3409,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>168</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3435,16 +3433,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3456,17 +3454,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext17">
@@ -3488,8 +3486,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge17</Pieces>
-		<Pieces>ETW_ManaGauge17</Pieces>
 		<Pieces>ETW_STAGauge17</Pieces>
+		<Pieces>ETW_ManaGauge17</Pieces>
 		<Pieces>ETW_HPLabel17</Pieces>
 		<Pieces>ETW_HPPercLabel17</Pieces>
 		<Pieces>ETW_Role17</Pieces>
@@ -3498,7 +3496,7 @@
 	<Label item="ETW_AggroPct18">
 		<ScreenID>ETW_AggroPct18</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -3508,11 +3506,11 @@
 		<EQType>332</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge18">
@@ -3536,15 +3534,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge18">
@@ -3554,7 +3552,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>80</EQType>
@@ -3563,12 +3561,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge18">
@@ -3581,18 +3579,18 @@
 			<G>240</G>
 			<B>0</B>
 		</FillTint>
-		<EQType>100</EQType>
+		<EQType>199</EQType>
 		<GaugeDrawTemplate>
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel18">
@@ -3605,17 +3603,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>169</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3629,16 +3627,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3650,17 +3648,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext18">
@@ -3682,8 +3680,8 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge18</Pieces>
-		<Pieces>ETW_ManaGauge18</Pieces>
 		<Pieces>ETW_STAGauge18</Pieces>
+		<Pieces>ETW_ManaGauge18</Pieces>
 		<Pieces>ETW_HPLabel18</Pieces>
 		<Pieces>ETW_HPPercLabel18</Pieces>
 		<Pieces>ETW_Role18</Pieces>
@@ -3692,7 +3690,7 @@
 	<Label item="ETW_AggroPct19">
 		<ScreenID>ETW_AggroPct19</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>78</Text>
 		<TextColor>
 			<R>255</R>
@@ -3702,11 +3700,11 @@
 		<EQType>333</EQType>
 		<Location>
 			<X>0</X>
-			<Y>0</Y>
+			<Y>3</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>16</CY>
+			<CX>15</CX>
+			<CY>11</CY>
 		</Size>
 	</Label>
 	<Gauge item="ETW_Gauge19">
@@ -3730,15 +3728,15 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>0</GaugeOffsetX>
-		<GaugeOffsetY>15</GaugeOffsetY>
+		<GaugeOffsetY>13</GaugeOffsetY>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
+			<X>15</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>100</CX>
-			<CY>32</CY>
+			<CY>23</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_ManaGauge19">
@@ -3748,7 +3746,7 @@
 		<RelativePosition>true</RelativePosition>
 		<FillTint>
 			<R>0</R>
-			<G>128</G>
+			<G>40</G>
 			<B>255</B>
 		</FillTint>
 		<EQType>81</EQType>
@@ -3757,12 +3755,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>24</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>8</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Gauge item="ETW_STAGauge19">
@@ -3781,12 +3779,12 @@
 		</GaugeDrawTemplate>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>18</X>
-			<Y>28</Y>
+			<X>19</X>
+			<Y>20</Y>
 		</Location>
 		<Size>
-			<CX>100</CX>
-			<CY>4</CY>
+			<CX>92</CX>
+			<CY>3</CY>
 		</Size>
 	</Gauge>
 	<Label item="ETW_HPLabel19">
@@ -3799,17 +3797,17 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<EQType>170</EQType>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>3</X>
-			<Y>14</Y>
+			<X>85</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>20</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3823,16 +3821,16 @@
 			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>17</X>
-			<Y>14</Y>
+			<X>103</X>
+			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>130</CX>
-			<CY>12</CY>
+			<CX>10</CX>
+			<CY>11</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -3844,17 +3842,17 @@
 		<ButtonDrawTemplate>
 		</ButtonDrawTemplate>
 		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</DecalSize>
 		<AutoStretch>false</AutoStretch>
 		<Location>
-			<X>1</X>
-			<Y>14</Y>
+			<X>2</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
-			<CX>16</CX>
-			<CY>16</CY>
+			<CX>10</CX>
+			<CY>10</CY>
 		</Size>
 	</Button>
 	<LayoutBox item="ETW_Ext19">
@@ -3876,28 +3874,611 @@
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<Pieces>ETW_Gauge19</Pieces>
-		<Pieces>ETW_ManaGauge19</Pieces>
 		<Pieces>ETW_STAGauge19</Pieces>
+		<Pieces>ETW_ManaGauge19</Pieces>
 		<Pieces>ETW_HPLabel19</Pieces>
 		<Pieces>ETW_HPPercLabel19</Pieces>
 		<Pieces>ETW_Role19</Pieces>
 		<Pieces>ETW_AggroPct19</Pieces>
 	</LayoutBox>
+	<Label item="ETW_AggroPct20">
+		<ScreenID>ETW_AggroPct20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>1</Font>
+		<Text>78</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<EQType>391</EQType>
+		<Location>
+			<X>0</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>15</CX>
+			<CY>11</CY>
+		</Size>
+	</Label>
+	<Gauge item="ETW_Gauge20">
+		<ScreenID>ETW_Gauge20</ScreenID>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>220</R>
+			<G>0</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>151</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+			<Background>A_GaugeBackground</Background>
+		</GaugeDrawTemplate>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>15</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>23</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_ManaGauge20">
+		<ScreenID>ETW_ManaGauge20</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>0</R>
+			<G>40</G>
+			<B>255</B>
+		</FillTint>
+		<EQType>371</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_STAGauge20">
+		<ScreenID>ETW_STAGauge20</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>381</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Label item="ETW_HPLabel20">
+		<ScreenID>ETW_HPLabel20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>100</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<EQType>361</EQType>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>85</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Label item="ETW_HPPercLabel20">
+		<ScreenID>ETW_HPPercLabel20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>%</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>103</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Button item="ETW_Role20">
+		<ScreenID>ETW_Role20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>10</CX>
+			<CY>10</CY>
+		</DecalSize>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>2</X>
+			<Y>13</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>10</CY>
+		</Size>
+	</Button>
+	<LayoutBox item="ETW_Ext20">
+		<ScreenID>ETW_Ext20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>false</AutoStretch>
+		<Size>
+			<CX>127</CX>
+			<CY>35</CY>
+		</Size>
+		<Text/>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Tooltip>true</Style_Tooltip>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<Pieces>ETW_Gauge20</Pieces>
+		<Pieces>ETW_STAGauge20</Pieces>
+		<Pieces>ETW_ManaGauge20</Pieces>
+		<Pieces>ETW_HPLabel20</Pieces>
+		<Pieces>ETW_HPPercLabel20</Pieces>
+		<Pieces>ETW_Role20</Pieces>
+		<Pieces>ETW_AggroPct20</Pieces>
+	</LayoutBox>
+	<Label item="ETW_AggroPct21">
+		<ScreenID>ETW_AggroPct21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>1</Font>
+		<Text>78</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<EQType>392</EQType>
+		<Location>
+			<X>0</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>15</CX>
+			<CY>11</CY>
+		</Size>
+	</Label>
+	<Gauge item="ETW_Gauge21">
+		<ScreenID>ETW_Gauge21</ScreenID>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>220</R>
+			<G>0</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>152</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+			<Background>A_GaugeBackground</Background>
+		</GaugeDrawTemplate>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>15</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>23</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_ManaGauge21">
+		<ScreenID>ETW_ManaGauge21</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>0</R>
+			<G>40</G>
+			<B>255</B>
+		</FillTint>
+		<EQType>372</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_STAGauge21">
+		<ScreenID>ETW_STAGauge21</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>382</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Label item="ETW_HPLabel21">
+		<ScreenID>ETW_HPLabel21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>100</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<EQType>362</EQType>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>85</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Label item="ETW_HPPercLabel21">
+		<ScreenID>ETW_HPPercLabel21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>%</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>103</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Button item="ETW_Role21">
+		<ScreenID>ETW_Role21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>10</CX>
+			<CY>10</CY>
+		</DecalSize>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>2</X>
+			<Y>13</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>10</CY>
+		</Size>
+	</Button>
+	<LayoutBox item="ETW_Ext21">
+		<ScreenID>ETW_Ext21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>false</AutoStretch>
+		<Size>
+			<CX>127</CX>
+			<CY>35</CY>
+		</Size>
+		<Text/>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Tooltip>true</Style_Tooltip>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<Pieces>ETW_Gauge21</Pieces>
+		<Pieces>ETW_STAGauge21</Pieces>
+		<Pieces>ETW_ManaGauge21</Pieces>
+		<Pieces>ETW_HPLabel21</Pieces>
+		<Pieces>ETW_HPPercLabel21</Pieces>
+		<Pieces>ETW_Role11</Pieces>
+		<Pieces>ETW_AggroPct21</Pieces>
+	</LayoutBox>
+	<Label item="ETW_AggroPct22">
+		<ScreenID>ETW_AggroPct22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>1</Font>
+		<Text>78</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<EQType>393</EQType>
+		<Location>
+			<X>0</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>15</CX>
+			<CY>11</CY>
+		</Size>
+	</Label>
+	<Gauge item="ETW_Gauge22">
+		<ScreenID>ETW_Gauge22</ScreenID>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>220</R>
+			<G>0</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>153</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
+			<Background>A_GaugeBackground</Background>
+		</GaugeDrawTemplate>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>15</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>23</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_ManaGauge22">
+		<ScreenID>ETW_ManaGauge22</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>0</R>
+			<G>40</G>
+			<B>255</B>
+		</FillTint>
+		<EQType>373</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Gauge item="ETW_STAGauge22">
+		<ScreenID>ETW_STAGauge22</ScreenID>
+		<TextOffsetY>-50</TextOffsetY>
+		<GaugeOffsetY>-2</GaugeOffsetY>
+		<RelativePosition>true</RelativePosition>
+		<FillTint>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>173</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>19</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>92</CX>
+			<CY>3</CY>
+		</Size>
+	</Gauge>
+	<Label item="ETW_HPLabel22">
+		<ScreenID>ETW_HPLabe22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>100</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<EQType>383</EQType>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>85</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Label item="ETW_HPPercLabel22">
+		<ScreenID>ETW_HPPercLabel22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>%</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+		<Font>1</Font>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>103</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>11</CY>
+		</Size>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Button item="ETW_Role22">
+		<ScreenID>ETW_Role22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>10</CX>
+			<CY>10</CY>
+		</DecalSize>
+		<AutoStretch>false</AutoStretch>
+		<Location>
+			<X>2</X>
+			<Y>13</Y>
+		</Location>
+		<Size>
+			<CX>10</CX>
+			<CY>10</CY>
+		</Size>
+	</Button>
+	<LayoutBox item="ETW_Ext22">
+		<ScreenID>ETW_Ext22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>false</AutoStretch>
+		<Size>
+			<CX>127</CX>
+			<CY>35</CY>
+		</Size>
+		<Text/>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Tooltip>true</Style_Tooltip>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<Pieces>ETW_Gauge22</Pieces>
+		<Pieces>ETW_STAGauge22</Pieces>
+		<Pieces>ETW_ManaGauge22</Pieces>
+		<Pieces>ETW_HPLabel22</Pieces>
+		<Pieces>ETW_HPPercLabel22</Pieces>
+		<Pieces>ETW_Role22</Pieces>
+		<Pieces>ETW_AggroPct22</Pieces>
+	</LayoutBox>
+
 	<TileLayoutBox item="ETW_Targets">
 		<ScreenID>ETW_Targets</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<BottomAnchorOffset>2</BottomAnchorOffset>
-		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorOffset>-3</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
-		<Spacing>2</Spacing>
-		<SecondarySpacing>2</SecondarySpacing>
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>true</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
@@ -3915,15 +4496,18 @@
 		<Pieces>LayoutBox:ETW_Ext9</Pieces>
 		<Pieces>LayoutBox:ETW_Ext10</Pieces>
 		<Pieces>LayoutBox:ETW_Ext11</Pieces>
-	    	<Pieces>LayoutBox:ETW_Ext12</Pieces>
-		<!-- Not being used in TDS expansion Edited by Nepharite@Cazic-->
+		<Pieces>LayoutBox:ETW_Ext12</Pieces>
+		<!-- Not being used in TDS expansion -->
 		<!--	<Pieces>LayoutBox:ETW_Ext13</Pieces>
 		<Pieces>LayoutBox:ETW_Ext14</Pieces>
 		<Pieces>LayoutBox:ETW_Ext15</Pieces>
 		<Pieces>LayoutBox:ETW_Ext16</Pieces>
 		<Pieces>LayoutBox:ETW_Ext17</Pieces>
 		<Pieces>LayoutBox:ETW_Ext18</Pieces>
-		<Pieces>LayoutBox:ETW_Ext19</Pieces>  -->
+		<Pieces>LayoutBox:ETW_Ext19</Pieces>
+		<Pieces>LayoutBox:ETW_Ext20</Pieces>
+		<Pieces>LayoutBox:ETW_Ext21</Pieces>
+		<Pieces>LayoutBox:ETW_Ext22</Pieces>  -->
 	</TileLayoutBox>
 	<LayoutVertical item="ETW_LayoutV">
 		<ResizeVertical>true</ResizeVertical>
@@ -3933,10 +4517,10 @@
 		<ScreenID>ETW_HorizontalBarTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>4</TopAnchorOffset>
+		<TopAnchorOffset>-3</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>13</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -3946,55 +4530,41 @@
 		<ScreenID>ETW_VerticalBarTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>4</TopAnchorOffset>
+		<TopAnchorOffset>-3</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Screen>
-	<Screen item="ETW_NoSpinnerBarTemplate">
-		<ScreenID>ETW_NoSpinnerBarTemplate</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>4</TopAnchorOffset>
-		<BottomAnchorOffset>4</BottomAnchorOffset>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<!--		<UseInLayoutVertical>false</UseInLayoutVertical>
-		<UseInLayoutHorizontal>false</UseInLayoutHorizontal> -->
-	</Screen>
+
 	<Screen item="ExtendedTargetWnd">
 		<!--<ScreenID/>-->
 		<Layout>ETW_LayoutV</Layout>
 		<RelativePosition>false</RelativePosition>
 		<Location>
-			<X>134</X>
-			<Y>134</Y>
+			<X>150</X>
+			<Y>150</Y>
 		</Location>
 		<Size>
-			<CX>645</CX>
-			<CY>35</CY>
+			<CX>150</CX>
+			<CY>25</CY>
 		</Size>
 		<Text/>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>This is the extended target window.</TooltipReference>
+		<TooltipReference></TooltipReference>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_SizableBorderTop>false</Style_SizableBorderTop>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Pieces>TileLayoutBox:ETW_Targets</Pieces>
 		<!--		<Pieces>Screen:ETW_HorizontalBarTemplate</Pieces>
-		<Pieces>Screen:ETW_VerticalBarTemplate</Pieces>  
-		<Pieces>Screen:ETW_NoSpinnerBarTemplate</Pieces> -->
+		<Pieces>Screen:ETW_VerticalBarTemplate</Pieces>  -->
 	</Screen>
 </XML>
