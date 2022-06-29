@@ -131,6 +131,21 @@
 		<Choices>Always Greed</Choices>
 		<Choices>Never</Choices>
 	</Combobox>
+	<Button item="ADLW_PLL_LeaveAllBtn">
+		<ScreenID>ADLW_PLL_LeaveAllBtn</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<LeftAnchorOffset>140</LeftAnchorOffset>
+		<RightAnchorOffset>80</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Leave all items in the Personal Loot list.</TooltipReference>
+		<Text>Leave All</Text>
+		<Template>BDT_SmallNormal</Template>
+	</Button>
 	<Screen item="ADLW_PLLWnd">
 		<ScreenID>ADLW_PLLWnd</ScreenID>
 		<Location>
@@ -153,6 +168,7 @@
 		<Pieces>ADLW_PLLSetBtn</Pieces>
 		<Pieces>ADLW_PLL_LootAllBtn</Pieces>
 		<Pieces>ADLW_PLLSetCmbo</Pieces>
+		<Pieces>ADLW_PLL_LeaveAllBtn</Pieces>
 	</Screen>
 
 	<!-- Construct Loot -->
@@ -300,6 +316,21 @@
 		<Choices>Always Greed</Choices>
 		<Choices>Never</Choices>
 	</Combobox>
+	<Button item="ADLW_CLL_LeaveAllBtn">
+		<ScreenID>ADLW_CLL_LeaveAllBtn</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<LeftAnchorOffset>140</LeftAnchorOffset>
+		<RightAnchorOffset>80</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Leave all items in the Shared Loot list.</TooltipReference>
+		<Text>Leave All</Text>
+		<Template>BDT_SmallNormal</Template>
+	</Button>
 	<Screen item="ADLW_CLLWnd">
 		<ScreenID>ADLW_CLLWnd</ScreenID>
 		<Location>
@@ -321,6 +352,7 @@
 		<Pieces>ADLW_CLLList</Pieces>
 		<Pieces>ADLW_CLLSetBtn</Pieces>
 		<Pieces>ADLW_CLLSetCmbo</Pieces>
+		<Pieces>ADLW_CLL_LeaveAllBtn</Pieces>
 	</Screen>
 
 	<!-- General -->
