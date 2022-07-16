@@ -10,7 +10,7 @@
 			<Y>32</Y>
 		</Location>
 		<Size>
-			<CX>400</CX>
+			<CX>300</CX>
 			<CY>10</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
@@ -72,7 +72,7 @@
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>432</CX>
+			<CX>332</CX>
 			<CY>56</CY>
 		</Size>
 		<Text>Casting Time</Text>
