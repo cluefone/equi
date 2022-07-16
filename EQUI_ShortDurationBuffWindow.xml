@@ -5,8 +5,8 @@
 		<ScreenID>Player_Buff_Template</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 		<Template>BDT_PlayerBuff</Template>
 		<DecalOffset>
@@ -42,9 +42,10 @@
 	<Label item="SDBW_Buff0_Place">
 		<ScreenID>Buff0Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 		<Text>1</Text>
 		<NoWrap>true</NoWrap>
@@ -54,174 +55,203 @@
 	<Label item="SDBW_Buff1_Place">
 		<ScreenID>Buff1Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>2</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff2_Place">
 		<ScreenID>Buff2Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>3</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff3_Place">
 		<ScreenID>Buff3Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>4</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff4_Place">
 		<ScreenID>Buff4Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>5</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff5_Place">
 		<ScreenID>Buff5Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>6</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff6_Place">
 		<ScreenID>Buff6Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>7</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff7_Place">
 		<ScreenID>Buff7Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>8</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff8_Place">
 		<ScreenID>Buff8Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>9</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff9_Place">
 		<ScreenID>Buff9Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>10</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff10_Place">
 		<ScreenID>Buff10Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>11</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff11_Place">
 		<ScreenID>Buff11Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>12</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff12_Place">
 		<ScreenID>Buff12Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>13</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff13_Place">
 		<ScreenID>Buff13Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>14</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff14_Place">
 		<ScreenID>Buff14Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>15</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff15_Place">
 		<ScreenID>Buff15Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>16</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff16_Place">
 		<ScreenID>Buff16Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>17</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff17_Place">
 		<ScreenID>Buff17Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>18</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff18_Place">
 		<ScreenID>Buff18Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>19</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff19_Place">
 		<ScreenID>Buff19Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>20</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff20_Place">
 		<ScreenID>Buff0Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>21</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff21_Place">
 		<ScreenID>Buff1Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>22</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff22_Place">
 		<ScreenID>Buff2Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>23</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff23_Place">
 		<ScreenID>Buff3Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>24</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff24_Place">
 		<ScreenID>Buff4Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>25</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff25_Place">
 		<ScreenID>Buff5Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>26</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff26_Place">
 		<ScreenID>Buff6Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>27</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff27_Place">
 		<ScreenID>Buff7Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>28</Text>
 		<ButtonDrawTemplate/>
 	</Label>
 	<Label item="SDBW_Buff28_Place">
 		<ScreenID>Buff8Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>29</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff29_Place">
 		<ScreenID>Buff9Place</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Text>30</Text>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
@@ -278,39 +308,42 @@
 	<Label item="SDBW_Buff_FrontSpacer">
 		<ScreenID>SDBuffFrontSpacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
 			<X>0</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>22</CX>
-			<CY>25</CY>
+			<CX>12</CX>
+			<CY>16</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff_BackSpacer">
 		<ScreenID>SDBuffBackSpacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
-			<X>171</X>
+			<X>151</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
 			<CX>15</CX>
-			<CY>25</CY>
+			<CY>16</CY>
 		</Size>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Label item="SDBW_Buff0_Label">
 		<ScreenID>SDBuff0Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
 		<EQType>600</EQType>
 		<NoWrap>true</NoWrap>
@@ -318,8 +351,8 @@
 	</Label>
 	<Screen item="SDBW_00_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff0_Label</Pieces>
@@ -328,13 +361,14 @@
 	<Label item="SDBW_Buff1_Label">
 		<ScreenID>SDBuff1Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
 		<EQType>601</EQType>
 		<NoWrap>true</NoWrap>
@@ -342,8 +376,8 @@
 	</Label>
 	<Screen item="SDBW_01_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff1_Label</Pieces>
@@ -352,13 +386,14 @@
 	<Label item="SDBW_Buff2_Label">
 		<ScreenID>SDBuff2Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
 		<EQType>602</EQType>
 		<NoWrap>true</NoWrap>
@@ -366,8 +401,8 @@
 	</Label>
 	<Screen item="SDBW_02_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff2_Label</Pieces>
@@ -376,13 +411,14 @@
 	<Label item="SDBW_Buff3_Label">
 		<ScreenID>SDBuff3Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
 		<EQType>603</EQType>
 		<NoWrap>true</NoWrap>
@@ -390,8 +426,8 @@
 	</Label>
 	<Screen item="SDBW_03_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff3_Label</Pieces>
@@ -401,21 +437,22 @@
 		<ScreenID>SDBuff4Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>604</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_04_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff4_Label</Pieces>
@@ -425,21 +462,22 @@
 		<ScreenID>SDBuff5Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>605</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_05_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff5_Label</Pieces>
@@ -449,21 +487,22 @@
 		<ScreenID>SDBuff6Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>606</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_06_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff6_Label</Pieces>
@@ -473,21 +512,22 @@
 		<ScreenID>SDBuff7Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>607</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_07_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff7_Label</Pieces>
@@ -497,21 +537,22 @@
 		<ScreenID>SDBuff8Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>608</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_08_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff8_Label</Pieces>
@@ -521,21 +562,22 @@
 		<ScreenID>SDBuff9Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>609</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_09_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff9_Label</Pieces>
@@ -545,21 +587,22 @@
 		<ScreenID>SDBuff10Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>610</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_10_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff10_Label</Pieces>
@@ -569,21 +612,22 @@
 		<ScreenID>SDBuff11Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>611</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_11_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff11_Label</Pieces>
@@ -593,21 +637,22 @@
 		<ScreenID>SDBuff12Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>612</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_12_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff12_Label</Pieces>
@@ -617,21 +662,22 @@
 		<ScreenID>SDBuff13Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>613</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_13_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff13_Label</Pieces>
@@ -641,21 +687,22 @@
 		<ScreenID>SDBuff14Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>614</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_14_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff14_Label</Pieces>
@@ -665,21 +712,22 @@
 		<ScreenID>SDBuff15Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>615</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_15_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff15_Label</Pieces>
@@ -689,21 +737,22 @@
 		<ScreenID>SDBuff16Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>616</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_16_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff16_Label</Pieces>
@@ -713,21 +762,22 @@
 		<ScreenID>SDBuff17Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>617</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_17_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff17_Label</Pieces>
@@ -737,21 +787,22 @@
 		<ScreenID>SDBuff18Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>618</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_18_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff18_Label</Pieces>
@@ -761,21 +812,22 @@
 		<ScreenID>SDBuff19Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>619</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_19_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff19_Label</Pieces>
@@ -785,21 +837,22 @@
 		<ScreenID>SDBuff20Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>620</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_20_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff20_Label</Pieces>
@@ -809,21 +862,22 @@
 		<ScreenID>SDBuff21Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>621</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_21_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff21_Label</Pieces>
@@ -833,21 +887,22 @@
 		<ScreenID>SDBuff22Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>622</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_22_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff22_Label</Pieces>
@@ -857,21 +912,22 @@
 		<ScreenID>SDBuff23Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>623</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_23_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff23_Label</Pieces>
@@ -881,21 +937,22 @@
 		<ScreenID>SDBuff24Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>624</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_24_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff24_Label</Pieces>
@@ -905,21 +962,22 @@
 		<ScreenID>SDBuff25Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>625</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_25_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff25_Label</Pieces>
@@ -929,21 +987,22 @@
 		<ScreenID>SDBuff26Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>626</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_26_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff26_Label</Pieces>
@@ -953,21 +1012,22 @@
 		<ScreenID>SDBuff27Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>627</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_27_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff27_Label</Pieces>
@@ -977,21 +1037,22 @@
 		<ScreenID>SDBuff28Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>628</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_28_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff28_Label</Pieces>
@@ -1001,21 +1062,22 @@
 		<ScreenID>SDBuff29Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
+			<X>16</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
+			<CX>135</CX>
+			<CY>15</CY>
 		</Size>
+		<Font>2</Font>
 		<EQType>629</EQType>
 		<NoWrap>true</NoWrap>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
 	<Screen item="SDBW_29_Screen">
 		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
+			<CX>170</CX>
+			<CY>15</CY>
 		</Size>
 			<Pieces>SDBW_Buff_FrontSpacer</Pieces>
 			<Pieces>SDBW_Buff29_Label</Pieces>
