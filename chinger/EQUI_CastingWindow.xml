@@ -3,25 +3,26 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Gauge item="Casting_Gauge">
 		<ScreenID>Gauge</ScreenID>
-		<!--<Font>3</Font> -->
+		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>3</X>
-			<Y>32</Y>
-		</Location>
-		<Size>
-			<CX>300</CX>
-			<CY>10</CY>
-		</Size>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>13</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>21</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
 		<FillTint>
-			<R>240</R>
+			<R>200</R>
 			<G>0</G>
-			<B>240</B>
+			<B>255</B>
 		</FillTint>
 		<LinesFillTint>
 			<R>0</R>
@@ -31,6 +32,7 @@
 		<DrawLinesFill>false</DrawLinesFill>
 		<EQType>7</EQType>
 		<GaugeDrawTemplate>
+			<AutoStretch>true</AutoStretch>
 			<Background>A_GaugeBackground</Background>
 			<Fill>A_GaugeFill</Fill>
 			<Lines>A_GaugeLines</Lines>
@@ -42,23 +44,23 @@
 	<Label item="Casting_SpellName">
 		<ScreenID />
 		<EQType>134</EQType>
-		<Font>5</Font>
+		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<RightAnchorOffset>-2</RightAnchorOffset>
-		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>12</BottomAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text />
-		<!-- <TextColor>
+		<TextColor>
 			<R>255</R>
 			<G>255</G>
 			<B>255</B>
-		</TextColor> -->
+		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -72,21 +74,21 @@
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>332</CX>
-			<CY>56</CY>
+			<CX>100</CX>
+			<CY>25</CY>
 		</Size>
-		<Text>Casting Time</Text>
+		<Text></Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>The Breath Meter</TooltipReference>
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Escapable>false</Escapable>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Escapable>false</Escapable>
 		<Pieces>Casting_Gauge</Pieces>
 		<Pieces>Casting_SpellName</Pieces>
 	</Screen>
