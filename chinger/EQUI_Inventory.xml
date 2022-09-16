@@ -3024,34 +3024,57 @@
 				</TextColor>
 				<Template>BDT_Normal</Template>
 			</Button>
-			<Button item="IW_UpgradeCharacter">
-				<ScreenID>IW_UpgradeCharacter</ScreenID>
-				<Font>.5</Font>
-					<RelativePosition>true</RelativePosition>
-					<AutoStretch>true</AutoStretch>
-					<TopAnchorToTop>false</TopAnchorToTop>
-					<BottomAnchorToTop>false</BottomAnchorToTop>
-					<LeftAnchorToLeft>false</LeftAnchorToLeft>
-					<RightAnchorToLeft>false</RightAnchorToLeft>
-					<LeftAnchorOffset>48</LeftAnchorOffset>
-					<TopAnchorOffset>90</TopAnchorOffset>
-					<RightAnchorOffset>3</RightAnchorOffset>
-					<BottomAnchorOffset>70</BottomAnchorOffset>
-					<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Upgrade Character</Text>
-				<TextColor>
-					<R>255</R>
-					<G>233</G>
-					<B>129</B>
-				</TextColor>
-				<BackgroundTextureTint>
-					<R>0</R>
-					<G>255</G>
-					<B>0</B>
-				</BackgroundTextureTint>
-				<Template>BDT_Normal</Template>
-			</Button>
+  <Combobox item="IW_HeroicUpgradeSelection">
+    <ScreenID>IW_HeroicUpgradeSelection</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretchList>true</AutoStretchList>
+    <TooltipReference>Select which level of Heroic Character to use.</TooltipReference>
+     <RelativePosition>true</RelativePosition>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<LeftAnchorOffset>50</LeftAnchorOffset>
+	<TopAnchorOffset>21</TopAnchorOffset>
+	<RightAnchorOffset>190</RightAnchorOffset>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <ListHeight>40</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+  </Combobox>
+
+  <Button item="IW_UpgradeCharacter">
+    <ScreenID>IW_UpgradeCharacter</ScreenID>
+    <Font>.5</Font>
+     <RelativePosition>true</RelativePosition>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<LeftAnchorOffset>5</LeftAnchorOffset>
+	<TopAnchorOffset>21</TopAnchorOffset>
+	<RightAnchorOffset>45</RightAnchorOffset>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Upgrade Character</Text>
+    <TextColor>
+      <R>255</R>
+      <G>233</G>
+      <B>129</B>
+    </TextColor>
+    <BackgroundTextureTint>
+      <R>0</R>
+      <G>255</G>
+      <B>0</B>
+    </BackgroundTextureTint>
+    <TooltipReference>Upgrade current character to a fully equipped Heroic Character.</TooltipReference>
+    <Template>BDT_Normal</Template>
+  </Button>
 			<Button item="IW_Tinting">
 			<ScreenID>IW_Tinting</ScreenID>
 			<Font>2</Font>
@@ -8005,10 +8028,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>51</RightAnchorOffset>
-		<BottomAnchorOffset>55</BottomAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -8037,10 +8060,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<TopAnchorOffset>207</TopAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>187</TopAnchorOffset>
 		<RightAnchorOffset>51</RightAnchorOffset>
-		<BottomAnchorOffset>2</BottomAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
@@ -8202,6 +8225,7 @@
 			<Pieces>InvSlotKrono</Pieces>
 			<Pieces>IW_ConsumeKrono</Pieces>
 			<Pieces>IW_UpgradeCharacter</Pieces>
+    			<Pieces>IW_HeroicUpgradeSelection</Pieces>
 
 			<Location>
 			  <X>0</X>
