@@ -11,7 +11,7 @@
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>300</CX>
+			<CX>380</CX>
 			<CY>300</CY>
 		</Size>
 		<Columns>
@@ -21,6 +21,10 @@
 		<Columns>
 			<Width>40</Width>
 			<Heading>Count</Heading>
+		</Columns>
+		<Columns>
+			<Width>80</Width>
+			<Heading>Unavailable</Heading>
 		</Columns>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
@@ -77,7 +81,7 @@
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>300</X>
+			<X>380</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
@@ -181,7 +185,7 @@
 			<Y>100</Y>
 		</Location>
 		<Size>
-			<CX>600</CX>
+			<CX>680</CX>
 			<CY>300</CY>
 		</Size>
 		<MinVSize>300</MinVSize>

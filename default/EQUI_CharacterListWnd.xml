@@ -269,7 +269,7 @@
 		</Size>
 		<Animation>CLW_EQIcon</Animation>
 	</StaticAnimation>
-	
+
 	<Screen item="CLW_LogoScreen">
 		<ScreenID>CC_LogoScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -293,7 +293,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>CLW_LogoAnim</Pieces>
 	</Screen>
-	
+
 	<StaticAnimation item="CLW_Title">
 		<ScreenID>Title</ScreenID>
 		<Location>
@@ -313,7 +313,7 @@
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>43</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
-		<RightAnchorOffset>222</RightAnchorOffset>	
+		<RightAnchorOffset>222</RightAnchorOffset>
 		<Animation>A_FreePlayerIcon</Animation>
 	</StaticAnimation>
 	<StaticAnimation item="CLW_SilverPlayerAnim">
@@ -322,7 +322,7 @@
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>43</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
-		<RightAnchorOffset>222</RightAnchorOffset>	
+		<RightAnchorOffset>222</RightAnchorOffset>
 		<Animation>A_SilverPlayerIcon</Animation>
 	</StaticAnimation>
 	<StaticAnimation item="CLW_AllAccessMemberAnim">
@@ -331,7 +331,7 @@
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>43</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
-		<RightAnchorOffset>222</RightAnchorOffset>	
+		<RightAnchorOffset>222</RightAnchorOffset>
 		<Animation>A_AllAccessMemberIcon</Animation>
 	</StaticAnimation>
 	<Listbox item = "CLW_Character_List">
@@ -341,7 +341,7 @@
 		<TopAnchorOffset>40</TopAnchorOffset>
 		<BottomAnchorOffset>20</BottomAnchorOffset>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>	
+		<RightAnchorOffset>4</RightAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TextColor>
@@ -432,7 +432,7 @@
 		<Pieces>CLW_Count_Label</Pieces>
 		<Pieces>CLW_Buy_Slot_Button</Pieces>
 	</Screen>
-	
+
 	<Button item="CLW_Create_Button">
 		<ScreenID>Create_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -474,7 +474,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	
+
 	<Button item="CLW_Delete_Button">
 		<ScreenID>Delete_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -518,7 +518,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	
+
 	<Button item="CLW_Tutorial_Button">
 		<ScreenID>Tutorial_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -562,7 +562,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	
+
 	<Button item="CLW_Home_Button">
 		<ScreenID>Home_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -606,7 +606,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	
+
 	<Button item="CLW_Play_Button">
 		<ScreenID>Play_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -677,14 +677,14 @@
 		<TextOffsetX>22</TextOffsetX>
 		<TextOffsetY>1</TextOffsetY>
 	</Button>
-	
+
 	<Screen item = "CLW_ButtonsScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>16</LeftAnchorOffset>
-		<TopAnchorOffset>321</TopAnchorOffset>
+		<TopAnchorOffset>316</TopAnchorOffset>
 		<RightAnchorOffset>240</RightAnchorOffset>
-		<BottomAnchorOffset>101</BottomAnchorOffset>
+		<BottomAnchorOffset>96</BottomAnchorOffset>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -712,35 +712,32 @@
 		<Pieces>CLW_Play_Button</Pieces>
 		<Pieces>CLW_ResetUICheckbox</Pieces>
 	</Screen>
-
-	<Label item="CLW_HeroicCharacterCount">
-		<ScreenID>CLW_HeroicCharacterCount</ScreenID>
+	<Combobox item="CLW_HeroicUpgradeSelection">
+		<ScreenID>CLW_HeroicUpgradeSelection</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<AutoStretchList>true</AutoStretchList>
+		<TooltipReference>Select which level of Heroic Character to use. </TooltipReference>
 		<Location>
 			<X>5</X>
 			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>180</CX>
-			<CY>32</CY>
+			<CY>25</CY>
 		</Size>
-		<Text>Available Heroic Characters: 0</Text>
-		<TextColor>
-			<R>255</R>
-			<G>233</G>
-			<B>129</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<ListHeight>50</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
-	</Label>
-
+	</Combobox>
 	<Button item="CLW_UpgradeCharacter_Button">
 		<ScreenID>CLW_UpgradeCharacter_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
-			<Y>20</Y>
+			<Y>30</Y>
 		</Location>
 		<Size>
 			<CX>180</CX>
@@ -750,7 +747,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>Upgrade selected character to a fully equipped level 85 character.</TooltipReference>		
+		<TooltipReference>Upgrade selected character to a fully equipped Heroic character.</TooltipReference>
 		<TextColor>
 			<R>255</R>
 			<G>233</G>
@@ -771,7 +768,7 @@
 			<PressedDecal>UpgradeCharacterIcon</PressedDecal>
 			<FlybyDecal>UpgradeCharacterIcon</FlybyDecal>
 			<DisabledDecal>UpgradeCharacterDisabledIcon</DisabledDecal>
-			<PressedFlybyDecal>UpgradeCharacterIcon</PressedFlybyDecal>			
+			<PressedFlybyDecal>UpgradeCharacterIcon</PressedFlybyDecal>
 		</ButtonDrawTemplate>
 		<DecalOffset>
 			<X>5</X>
@@ -780,9 +777,8 @@
 		<DecalSize>
 			<CX>170</CX>
 			<CY>21</CY>
-		</DecalSize>		
+		</DecalSize>
 	</Button>
-
 	<Screen item="CLW_UpgradeHeroicCharacter">
 		<ScreenID>CLW_UpgradeHeroicCharacter</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -790,7 +786,7 @@
 		<LeftAnchorOffset>16</LeftAnchorOffset>
 		<TopAnchorOffset>390</TopAnchorOffset>
 		<RightAnchorOffset>241</RightAnchorOffset>
-		<BottomAnchorOffset>320</BottomAnchorOffset>
+		<BottomAnchorOffset>315</BottomAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -803,8 +799,8 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Pieces>CLW_HeroicCharacterCount</Pieces>
 		<Pieces>CLW_UpgradeCharacter_Button</Pieces>
+		<Pieces>CLW_HeroicUpgradeSelection</Pieces>
 	</Screen>
 	<Button item="CLW_FreeToAllAccess_Button">
 		<ScreenID>CLW_FreeToAllAccess_Button</ScreenID>
@@ -813,7 +809,7 @@
 		<TopAnchorOffset>93</TopAnchorOffset>
 		<BottomAnchorOffset>50</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
-		<RightAnchorOffset>222</RightAnchorOffset>	
+		<RightAnchorOffset>222</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<TooltipReference>Click this upgrade your membership to All Access!</TooltipReference>y
@@ -829,7 +825,7 @@
 		<TopAnchorOffset>93</TopAnchorOffset>
 		<BottomAnchorOffset>50</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
-		<RightAnchorOffset>222</RightAnchorOffset>	
+		<RightAnchorOffset>222</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<TooltipReference>Click this upgrade your membership to All Access!</TooltipReference>
@@ -903,7 +899,7 @@
 		<Pieces>CLW_FreeToAllAccess_Button</Pieces>
 		<Pieces>CLW_SilverToAllAccess_Button</Pieces>
 	</Screen>
-	
+
 	<Button item="CLW_Rotate_Button">
 		<ScreenID>Rotate_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>

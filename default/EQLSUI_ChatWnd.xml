@@ -167,9 +167,9 @@
 		<RelativePosition>true</RelativePosition>
 
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<LeftAnchorOffset>120</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
+		<RightAnchorOffset>120</RightAnchorOffset>
 		<BottomAnchorOffset>40</BottomAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
@@ -217,6 +217,7 @@
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>120</LeftAnchorOffset>
 		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<RightAnchorOffset>120</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>

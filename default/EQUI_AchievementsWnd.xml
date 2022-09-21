@@ -346,6 +346,29 @@
 		<RightAnchorOffset>35</RightAnchorOffset>
 		<Template>BDT_BigNormal</Template>
 	</Button>
+
+	<Button item="ACH_OutputFileButton">
+		<ScreenID>ACH_OutputFileButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>170</X>
+			<Y>112</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>Output To File</Text>
+		<TooltipReference>Output a filtered list of your achievements to a file.</TooltipReference>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>112</TopAnchorOffset>
+		<BottomAnchorOffset>132</BottomAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorOffset>280</LeftAnchorOffset>
+		<RightAnchorOffset>160</RightAnchorOffset>
+		<Template>BDT_BigNormal</Template>
+	</Button>
 	
 	<Gauge item="ACH_ExpansionCompletedSummaryGauge">
 		<ScreenID>ACH_ExpansionCompletedSummaryGauge</ScreenID>
@@ -803,6 +826,7 @@
 		<Pieces>Label:ACH_CompleteButtonLabel</Pieces>
 		<Pieces>Button:ACH_LockedButton</Pieces>
 		<Pieces>Button:ACH_DoCompareButton</Pieces>
+		<Pieces>Button:ACH_OutputFileButton</Pieces>
 		<Pieces>Label:ACH_LockedButtonLabel</Pieces>
 		<Pieces>Label:ACH_TotalScore</Pieces>
 		<Pieces>Gauge:ACH_TotalCompleted</Pieces>

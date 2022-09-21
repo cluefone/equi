@@ -132,7 +132,6 @@
 		<Include>EQUI_TributeMasterWnd.xml</Include>
 		<Include>EQUI_TributeTrophyWnd.xml</Include>		
 		<Include>EQUI_TargetOfTargetWindow.xml</Include>
-		<Include>EQUI_GmAttentionTextWnd.xml</Include>
 		<Include>EQUI_LargeDialogWnd.xml</Include>
 		<Include>EQUI_TaskWnd.xml</Include>
 		<Include>EQUI_TaskSelectWnd.xml</Include>

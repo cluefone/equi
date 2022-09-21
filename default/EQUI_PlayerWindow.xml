@@ -653,6 +653,8 @@
 		<AutoStretch>true</AutoStretch>
 		<AlignCenter>true</AlignCenter>
 		<TopAnchorOffset>65</TopAnchorOffset>
+    <LeftAnchorOffset>20</LeftAnchorOffset>
+    <RightAnchorOffset>20</RightAnchorOffset>
 		<BottomAnchorOffset>79</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
