@@ -266,7 +266,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>140</X>
-			<Y>123</Y>
+			<Y>130</Y>
 		</Location>
 		<Size>
 			<CX>26</CX>
@@ -978,9 +978,10 @@
 			<Y>111</Y>
 		</Location>
 		<Size>
-			<CX>50</CX>
+			<CX>16</CX>
 			<CY>14</CY>
 		</Size>
+		<Font>2</Font>
 		<Text>AA:</Text>
 		<TextColor>
 			<R>240</R>
@@ -996,14 +997,15 @@
 		<ScreenID>CurrentCount</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>20</X>
+			<X>18</X>
 			<Y>111</Y>
 		</Location>
 		<Size>
-			<CX>32</CX>
+			<CX>25</CX>
 			<CY>14</CY>
 		</Size>
 		<TooltipReference>Banked AA</TooltipReference>
+		<Font>2</Font>
 		<Text>0</Text>
 		<TextColor>
 			<R>240</R>
@@ -1014,6 +1016,49 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="PW_AggroPctPlayerLabel">
+		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>306</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignLeft>true</AlignLeft>
+		<TopAnchorOffset>112</TopAnchorOffset>
+		<LeftAnchorOffset>45</LeftAnchorOffset>
+		<RightAnchorOffset>45</RightAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+	<Label item="PW_AggroNameSecondaryLabel">
+		<ScreenID>PW_AggroNameSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>304</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignCenter>true</AlignCenter>
+		<TopAnchorOffset>111</TopAnchorOffset>
+ 		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+	<Label item="PW_AggroPctSecondaryLabel">
+		<ScreenID>PW_AggroPctSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>308</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignRight>true</AlignRight>
+		<TopAnchorOffset>112</TopAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<RightAnchorOffset>15</RightAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 
 	<!-- <Label item="PW_Merc_AALabel">
@@ -1732,5 +1777,8 @@
 		<Pieces>PW_NewMailIcon</Pieces>
 		<Pieces>PW_ParcelsIcon</Pieces>
 		<Pieces>PW_ParcelsOverLimitIcon</Pieces>
+		<Pieces>PW_AggroPctPlayerLabel</Pieces>
+		<Pieces>PW_AggroNameSecondaryLabel</Pieces>
+		<Pieces>PW_AggroPctSecondaryLabel</Pieces>
 	</Screen>
 </XML>
