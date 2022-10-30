@@ -974,7 +974,7 @@
 		<ScreenID>CurrentLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>4</X>
+			<X>1</X>
 			<Y>111</Y>
 		</Location>
 		<Size>
@@ -1018,48 +1018,150 @@
 		<AlignRight>true</AlignRight>
 	</Label>
 
-	<Label item="PW_AggroPctPlayerLabel">
-		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
+	<Label item="PersonalTribute">
+		<ScreenID>PersonalTribute</ScreenID>
 		<Font>2</Font>
-		<Text></Text>
-		<EQType>306</EQType>
-		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
-		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>112</TopAnchorOffset>
-		<LeftAnchorOffset>45</LeftAnchorOffset>
-		<RightAnchorOffset>45</RightAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>P:</Text>
+		<TextColor>
+			<R>105</R>
+			<G>105</G>
+			<B>155</B>
+		</TextColor>
+		<Size>
+			<CX>10</CX>
+			<CY>14</CY>
+		</Size>
+		<AlignCenter>false</AlignCenter>
+		<Location>
+			<X>48</X>
+			<Y>111</Y>
+		</Location>
 	</Label>
-	<Label item="PW_AggroNameSecondaryLabel">
-		<ScreenID>PW_AggroNameSecondaryLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
+	<Label item="PTributeTimeLeft">
+		<ScreenID>Tribute_1</ScreenID>
+		<EQType>116</EQType>
 		<Font>2</Font>
-		<Text></Text>
-		<EQType>304</EQType>
+		<Text>10:00</Text>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>58</X>
+			<Y>111</Y>
+		</Location>
+		<Size>
+			<CX>29</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TextColor>
 		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
 		<AlignCenter>true</AlignCenter>
-		<TopAnchorOffset>111</TopAnchorOffset>
- 		<BottomAnchorOffset>140</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>false</AlignLeft>
 	</Label>
-	<Label item="PW_AggroPctSecondaryLabel">
-		<ScreenID>PW_AggroPctSecondaryLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
+
+	<Label item="TrophyTribute">
+		<ScreenID>TrophyTribute</ScreenID>
 		<Font>2</Font>
-		<Text></Text>
-		<EQType>308</EQType>
-		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
-		<AlignRight>true</AlignRight>
-		<TopAnchorOffset>112</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>PT:</Text>
+		<TextColor>
+			<R>105</R>
+			<G>105</G>
+			<B>155</B>
+		</TextColor>
+		<Size>
+			<CX>15</CX>
+			<CY>14</CY>
+		</Size>
+		<AlignCenter>false</AlignCenter>
+		<Location>
+			<X>87</X>
+			<Y>111</Y>
+		</Location>
 	</Label>
+
+	<Label item="TrophyTributeTimeLeft">
+		<ScreenID>Tribute_1</ScreenID>
+		<EQType>297</EQType>
+		<Font>2</Font>
+		<Text>10:00</Text>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>103</X>
+			<Y>111</Y>
+		</Location>
+		<Size>
+			<CX>27</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>0</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<AlignLeft>false</AlignLeft>
+	</Label>
+
+	<Button item="PW_NewMailIcon">
+		<ScreenID>PW_NewMailIcon</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>You have unread mail in your inbox.</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_NewMailIcon</Normal>
+		</ButtonDrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>111</TopAnchorOffset>
+		<LeftAnchorOffset>34</LeftAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorOffset>17</RightAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorOffset>125</BottomAnchorOffset>
+	</Button>
+
+	<Button item="PW_ParcelsIcon">
+		<ScreenID>PW_ParcelsIcon</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>You have parcel deliveries.</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_ParcelsIcon</Normal>
+		</ButtonDrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorOffset>125</BottomAnchorOffset>
+		<TopAnchorOffset>111</TopAnchorOffset>
+		<RightAnchorOffset>3</RightAnchorOffset>
+		<LeftAnchorOffset>16</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	</Button>
+
+	<Button item="PW_ParcelsOverLimitIcon">
+		<ScreenID>PW_ParcelsOverLimitIcon</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>You are over your parcel limit! Retrieve the excess ones soon or risk losing them!</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_ParcelsOverLimitIcon</Normal>
+		</ButtonDrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<BottomAnchorOffset>125</BottomAnchorOffset>
+		<TopAnchorOffset>111</TopAnchorOffset>
+		<RightAnchorOffset>3</RightAnchorOffset>
+		<LeftAnchorOffset>16</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+	</Button>
 
 	<!-- <Label item="PW_Merc_AALabel">
 		<ScreenID>PW_Merc_AALabel</ScreenID>
@@ -1300,10 +1402,10 @@
 			<Y>161</Y>
 		</Location>
 		<Size>
-			<CX>64</CX>
+			<CX>54</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>HASTE:</Text>
+		<Text>HSTE:</Text>
 		<TextColor>
 			<R>105</R>
 			<G>105</G>
@@ -1320,7 +1422,7 @@
 		<EQType>211</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>104</X>
+			<X>96</X>
 			<Y>161</Y>
 		</Location>
 		<Size>
@@ -1343,7 +1445,7 @@
 		<ScreenID>MY_VelocityLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>130</X>
+			<X>122</X>
 			<Y>161</Y>
 		</Location>
 		<Size>
@@ -1367,7 +1469,7 @@
 		<EQType>401</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>156</X>
+			<X>149</X>
 			<Y>161</Y>
 		</Location>
 		<Size>
@@ -1376,8 +1478,8 @@
 		</Size>
 		<Text>1900</Text>
 		<TextColor>
-			<R>0</R>
-			<G>255</G>
+			<R>240</R>
+			<G>180</G>
 			<B>0</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
@@ -1465,97 +1567,6 @@
 		<Text>Tr</Text>
 	</Button> -->
 
-	<Label item="PersonalTribute">
-		<ScreenID>PersonalTribute</ScreenID>
-		<Font>1</Font>
-		<Text>P:</Text>
-		<TextColor>
-			<R>105</R>
-			<G>105</G>
-			<B>155</B>
-		</TextColor>
-		<Size>
-			<CX>10</CX>
-			<CY>12</CY>
-		</Size>
-		<AlignCenter>false</AlignCenter>
-		<Location>
-			<X>4</X>
-			<Y>177</Y>
-		</Location>
-	</Label>
-	<Label item="PTributeTimeLeft">
-		<ScreenID>Tribute_1</ScreenID>
-		<EQType>116</EQType>
-		<Font>1</Font>
-		<Text>10:00</Text>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>14</X>
-			<Y>177</Y>
-		</Location>
-		<Size>
-			<CX>29</CX>
-			<CY>10</CY>
-		</Size>
-		<Text>0</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>0</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<AlignLeft>false</AlignLeft>
-	</Label>
-
-	<Label item="TrophyTribute">
-		<ScreenID>TrophyTribute</ScreenID>
-		<Font>1</Font>
-		<Text>PT:</Text>
-		<TextColor>
-			<R>105</R>
-			<G>105</G>
-			<B>155</B>
-		</TextColor>
-		<Size>
-			<CX>15</CX>
-			<CY>12</CY>
-		</Size>
-		<AlignCenter>false</AlignCenter>
-		<Location>
-			<X>43</X>
-			<Y>177</Y>
-		</Location>
-	</Label>
-
-	<Label item="TrophyTributeTimeLeft">
-		<ScreenID>Tribute_1</ScreenID>
-		<EQType>297</EQType>
-		<Font>1</Font>
-		<Text>10:00</Text>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>59</X>
-			<Y>177</Y>
-		</Location>
-		<Size>
-			<CX>27</CX>
-			<CY>10</CY>
-		</Size>
-		<Text>0</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>0</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
-		<AlignLeft>false</AlignLeft>
-	</Label>
-
 	<Button item="PW_GroupRoleTank">
 		<ScreenID>GroupRoleTank</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1640,59 +1651,49 @@
 		<BottomAnchorOffset>107</BottomAnchorOffset>
 	</Button>
 
-	<Button item="PW_NewMailIcon">
-		<ScreenID>PW_NewMailIcon</ScreenID>
+	<Label item="PW_AggroPctPlayerLabel">
+		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>true</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>You have unread mail in your inbox.</TooltipReference>
-		<ButtonDrawTemplate>
-			<Normal>A_NewMailIcon</Normal>
-		</ButtonDrawTemplate>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>306</EQType>
+		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>170</TopAnchorOffset>
-		<LeftAnchorOffset>58</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorOffset>33</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorOffset>195</BottomAnchorOffset>
-	</Button>
-
-	<Button item="PW_ParcelsIcon">
-		<ScreenID>PW_ParcelsIcon</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>true</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>You have parcel deliveries.</TooltipReference>
-		<ButtonDrawTemplate>
-			<Normal>A_ParcelsIcon</Normal>
-		</ButtonDrawTemplate>
-		<AutoStretch>true</AutoStretch>
-		<BottomAnchorOffset>193</BottomAnchorOffset>
+		<AlignLeft>true</AlignLeft>
 		<TopAnchorOffset>174</TopAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<LeftAnchorOffset>28</LeftAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-	</Button>
-
-	<Button item="PW_ParcelsOverLimitIcon">
-		<ScreenID>PW_ParcelsOverLimitIcon</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>true</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>You are over your parcel limit! Retrieve the excess ones soon or risk losing them!</TooltipReference>
-		<ButtonDrawTemplate>
-			<Normal>A_ParcelsOverLimitIcon</Normal>
-		</ButtonDrawTemplate>
-		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>3</LeftAnchorOffset>
 		<BottomAnchorOffset>193</BottomAnchorOffset>
-		<TopAnchorOffset>174</TopAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<LeftAnchorOffset>28</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-	</Button>
+	</Label>
+	<Label item="PW_AggroNameSecondaryLabel">
+		<ScreenID>PW_AggroNameSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>304</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignCenter>true</AlignCenter>
+		<TopAnchorOffset>174</TopAnchorOffset>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+ 		<BottomAnchorOffset>193</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
+	<Label item="PW_AggroPctSecondaryLabel">
+		<ScreenID>PW_AggroPctSecondaryLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text></Text>
+		<EQType>308</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignRight>true</AlignRight>
+		<TopAnchorOffset>174</TopAnchorOffset>
+		<BottomAnchorOffset>193</BottomAnchorOffset>
+		<RightAnchorOffset>15</RightAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
 
 	<Screen item="PlayerWindow">
 		<RelativePosition>false</RelativePosition>
