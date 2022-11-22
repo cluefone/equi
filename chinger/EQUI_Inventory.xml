@@ -1184,7 +1184,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>83</Y>
 			</Location>
 			<Size>
@@ -1275,7 +1275,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>93</Y>
 			</Location>
 			<Size>
@@ -1366,7 +1366,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>103</Y>
 			</Location>
 			<Size>
@@ -1457,7 +1457,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>113</Y>
 			</Location>
 			<Size>
@@ -1551,7 +1551,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>123</Y>
 			</Location>
 			<Size>
@@ -2604,7 +2604,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>107</X>
-			  <Y>215</Y>
+			  <Y>233</Y>
 			</Location>
 			<Size>
 			  <CX>105</CX>
@@ -2639,7 +2639,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>212</X>
-			  <Y>215</Y>
+			  <Y>233</Y>
 			</Location>
 			<Size>
 			  <CX>105</CX>
@@ -2674,7 +2674,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>107</X>
-			  <Y>233</Y>
+			  <Y>215</Y>
 			</Location>
 			<Size>
 			  <CX>105</CX>
@@ -2709,7 +2709,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>212</X>
-			  <Y>233</Y>
+			  <Y>215</Y>
 			</Location>
 			<Size>
 			  <CX>105</CX>
@@ -3024,6 +3024,7 @@
 				</TextColor>
 				<Template>BDT_Normal</Template>
 			</Button>
+
   <Combobox item="IW_HeroicUpgradeSelection">
     <ScreenID>IW_HeroicUpgradeSelection</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -3046,35 +3047,33 @@
     <Style_Border>true</Style_Border>
   </Combobox>
 
-  <Button item="IW_UpgradeCharacter">
-    <ScreenID>IW_UpgradeCharacter</ScreenID>
-    <Font>.5</Font>
-     <RelativePosition>true</RelativePosition>
-	<AutoStretch>true</AutoStretch>
-	<TopAnchorToTop>false</TopAnchorToTop>
-	<BottomAnchorToTop>false</BottomAnchorToTop>
-	<LeftAnchorToLeft>true</LeftAnchorToLeft>
-	<RightAnchorToLeft>true</RightAnchorToLeft>
-	<LeftAnchorOffset>5</LeftAnchorOffset>
-	<TopAnchorOffset>21</TopAnchorOffset>
-	<RightAnchorOffset>45</RightAnchorOffset>
-	<BottomAnchorOffset>1</BottomAnchorOffset>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text>Upgrade Character</Text>
-    <TextColor>
-      <R>255</R>
-      <G>233</G>
-      <B>129</B>
-    </TextColor>
-    <BackgroundTextureTint>
-      <R>0</R>
-      <G>255</G>
-      <B>0</B>
-    </BackgroundTextureTint>
-    <TooltipReference>Upgrade current character to a fully equipped Heroic Character.</TooltipReference>
-    <Template>BDT_Normal</Template>
-  </Button>
+			<Button item="IW_UpgradeCharacter">
+				<ScreenID>IW_UpgradeCharacter</ScreenID>
+				<Font>.5</Font>
+				<RelativePosition>true</RelativePosition>
+				<AutoStretch>true</AutoStretch>
+				<TopAnchorToTop>false</TopAnchorToTop>
+				<BottomAnchorToTop>false</BottomAnchorToTop>
+				<LeftAnchorToLeft>true</LeftAnchorToLeft>
+				<RightAnchorToLeft>true</RightAnchorToLeft>
+				<LeftAnchorOffset>5</LeftAnchorOffset>
+				<TopAnchorOffset>21</TopAnchorOffset>
+				<RightAnchorOffset>45</RightAnchorOffset>
+				<BottomAnchorOffset>1</BottomAnchorOffset>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Upgrade Character</Text>
+				<TextColor>
+					<R>255</R>
+					<G>233</G>
+					<B>129</B>
+				</TextColor>
+				<BackgroundTextureTint>
+					<R>0</R>
+					<G>255</G>
+					<B>0</B>
+				</BackgroundTextureTint>
+				<Template>BDT_Normal</Template>
+			</Button>
 			<Button item="IW_Tinting">
 			<ScreenID>IW_Tinting</ScreenID>
 			<Font>2</Font>
@@ -8226,7 +8225,6 @@
 			<Pieces>IW_ConsumeKrono</Pieces>
 			<Pieces>IW_UpgradeCharacter</Pieces>
     			<Pieces>IW_HeroicUpgradeSelection</Pieces>
-
 			<Location>
 			  <X>0</X>
 			  <Y>22</Y>
