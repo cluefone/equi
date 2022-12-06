@@ -23,7 +23,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
+			<X>0</X>
 			<Y>31</Y>
 		</Location>
 		<Size>
@@ -38,7 +38,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
+			<X>0</X>
 			<Y>71</Y>
 		</Location>
 		<Size>
@@ -53,7 +53,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
+			<X>0</X>
 			<Y>111</Y>
 		</Location>
 		<Size>
@@ -68,7 +68,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
+			<X>0</X>
 			<Y>151</Y>
 		</Location>
 		<Size>
@@ -83,7 +83,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>39</X>
+			<X>40</X>
 			<Y>31</Y>
 		</Location>
 		<Size>
@@ -98,7 +98,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>39</X>
+			<X>40</X>
 			<Y>71</Y>
 		</Location>
 		<Size>
@@ -113,7 +113,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>39</X>
+			<X>40</X>
 			<Y>111</Y>
 		</Location>
 		<Size>
@@ -128,7 +128,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>39</X>
+			<X>40</X>
 			<Y>151</Y>
 		</Location>
 		<Size>
@@ -263,12 +263,12 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
-			<Y>197</Y>
+			<X>0</X>
+			<Y>192</Y>
 		</Location>
 		<Size>
 			<CX>80</CX>
-			<CY>32</CY>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click on this button with an item on your cursor, and it will be placed in your non-shared bank, if possible.</TooltipReference>
@@ -287,8 +287,8 @@
 		</Size>
 		<AlignCenter>true</AlignCenter>
 		<Location>
-			<X>-1</X>
-			<Y>233</Y>
+			<X>0</X>
+			<Y>216</Y>
 		</Location>
 	</Label>
 	<InvSlot item="BW_SharedBankSlot0">
@@ -296,8 +296,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-1</X>
-			<Y>251</Y>
+			<X>0</X>
+			<Y>234</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -311,8 +311,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>39</X>
-			<Y>251</Y>
+			<X>40</X>
+			<Y>234</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -326,8 +326,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-4</X>
-			<Y>291</Y>
+			<X>0</X>
+			<Y>274</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -353,8 +353,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-4</X>
-			<Y>323</Y>
+			<X>0</X>
+			<Y>300</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
@@ -371,17 +371,34 @@
 		<ScreenID>DragonHoard</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>-4</X>
-			<Y>348</Y>
+			<X>0</X>
+			<Y>323</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
-			<CY>40</CY>
+			<CY>33</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Dragon's Hoard</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="BW_TradeskillDepot">
+		<ScreenID>TradeskillDepot</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>360</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>33</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your personal Tradeskill Depot.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Tradeskill Depot</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BW_Money0">
@@ -584,7 +601,7 @@
 			<Y>25</Y>
 		</Location>
 		<Size>
-			<CX>208</CX>
+			<CX>212</CX>
 			<CY>420</CY>
 		</Size>
 		<Text>Bank</Text>
@@ -627,6 +644,7 @@
 		<Pieces>BW_SharedBankLabel</Pieces>
 		<Pieces>BW_AltStorageButton</Pieces>
 		<Pieces>BW_DragonHoard</Pieces>
+		<Pieces>BW_TradeskillDepot</Pieces>
 		<Pieces>BW_FindItemButton</Pieces>
 	</Screen>
 </XML>

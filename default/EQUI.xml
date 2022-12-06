@@ -215,6 +215,7 @@
 		<Include>EQUI_FactionWnd.xml</Include>
 		<Include>EQUI_OverseerWnd.xml</Include>
 		<Include>EQUI_DragonHoardWnd.xml</Include>
+		<Include>EQUI_TradeskillDepotWnd.xml</Include>
 	</Composite>
 
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>

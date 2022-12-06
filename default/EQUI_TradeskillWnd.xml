@@ -773,7 +773,7 @@
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>20</TopAnchorOffset>
 		<RightAnchorOffset>20</RightAnchorOffset>
-		<BottomAnchorOffset>50</BottomAnchorOffset>
+		<BottomAnchorOffset>45</BottomAnchorOffset>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -791,9 +791,9 @@
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
-		<TopAnchorOffset>52</TopAnchorOffset>
+		<TopAnchorOffset>47</TopAnchorOffset>
 		<RightAnchorOffset>20</RightAnchorOffset>
-		<BottomAnchorOffset>74</BottomAnchorOffset>
+		<BottomAnchorOffset>72</BottomAnchorOffset>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -805,6 +805,49 @@
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 
+	<Button item = "COMBW_PersonalDepotButton">
+		<ScreenID>PersonalDepotButton</ScreenID>
+		<Font>4</Font>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<TopAnchorOffset>74</TopAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+		<BottomAnchorOffset>98</BottomAnchorOffset>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click this button to open your personal tradeskill depot.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Tradeskill Depot</Text>
+		<Template>BDT_SmallNormal</Template>
+	</Button>
+	
+	<Button item="COMBW_PersonalDepotCheckbox">
+		<ScreenID>PersonalDepotCheckbox</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<TopAnchorOffset>102</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>122</BottomAnchorOffset>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<TooltipReference>Toggle to use components from your personal tradeskill depot when combining.</TooltipReference>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Personal Depot</Text>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
+	</Button>
 	<Screen item = "COMBW_CombineArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -813,11 +856,11 @@
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>334</TopAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>408</BottomAnchorOffset>
+		<BottomAnchorOffset>5</BottomAnchorOffset>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -829,6 +872,9 @@
 		<Pieces>COMBW_MakeAllCheckbox</Pieces>
 		<Pieces>COMBW_CombineButton</Pieces>
 		<Pieces>COMBW_AutoInvButton</Pieces>
+		<Pieces>COMBW_PersonalDepotButton</Pieces>
+		<Pieces>COMBW_PersonalDepotCheckbox</Pieces>
+		<Pieces>COMBW_CloseButton</Pieces>
 	</Screen>
 
 	<Button item = "COMBW_CloseButton">
@@ -850,30 +896,6 @@
 		<Text>Close</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Screen item = "COMBW_FlagsArea">
-		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<TopAnchorOffset>412</TopAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Sizable>false</Style_Sizable>
-		<Pieces>COMBW_CloseButton</Pieces>
-	</Screen>
 
 	<Screen item = "COMBW_RightSideArea">
 		<ScreenID/>
@@ -898,7 +920,6 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>COMBW_ContainerArea</Pieces>
 		<Pieces>COMBW_CombineArea</Pieces>
-		<Pieces>COMBW_FlagsArea</Pieces>
 	</Screen>
 
 	<Screen item = "TradeskillWnd">
@@ -909,7 +930,7 @@
 		</Location>
 		<Size>
 			<CX>400</CX>
-			<CY>525</CY>
+			<CY>535</CY>
 		</Size>
 		<Text>Tradeskill Window</Text>
 		<Style_Transparent>false</Style_Transparent>

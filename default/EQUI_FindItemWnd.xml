@@ -433,6 +433,27 @@
 		<Text>Highlight Item</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
+	<Button item="FIW_SearchDepotButton">
+		<ScreenID>FIW_SearchDepotButton</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>340</LeftAnchorOffset>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<RightAnchorOffset>470</RightAnchorOffset>
+		<BottomAnchorOffset>4</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TooltipReference>Toggle to include your Tradeskill Depot when searching</TooltipReference>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Tradeskill Depot</Text>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
+	</Button>
 	<Button item="FIW_DestroyItem">
 		<ScreenID>FIW_DestroyItem</ScreenID>
 		<TooltipReference>Press to destroy currently held item.</TooltipReference>
@@ -501,6 +522,7 @@
 		<Pieces>FIW_DestroyItem</Pieces>
 		<Pieces>FIW_GrabButton</Pieces>
 		<Pieces>FIW_HighlightButton</Pieces>
+		<Pieces>FIW_SearchDepotButton</Pieces>
 		<Pieces>FIW_QueryButton</Pieces>
 	</Screen>
 </XML>
