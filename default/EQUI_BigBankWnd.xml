@@ -378,25 +378,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 23</EQType>
 	</InvSlot>
-	<Button item="BIGB_AutoButton">
-		<ScreenID>AutoButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>5</X>
-			<Y>197</Y>
-		</Location>
-		<Size>
-			<CX>80</CX>
-			<CY>32</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click on this button with an item on your cursor, and it will be placed in your non-shared bank, if possible.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Auto-Bank</Text>
-		<Template>BDT_Normal</Template>
-	</Button>
 	<Label item="BIGB_SharedBankLabel">
 		<ScreenID>BIGB_SharedBankLabel</ScreenID>
 		<Font>3</Font>
@@ -528,13 +509,32 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
+	<Button item="BIGB_AutoButton">
+		<ScreenID>AutoButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>195</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>32</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button with an item on your cursor, and it will be placed in your non-shared bank, if possible.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Auto-Bank</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
 	<Button item="BIGB_AltStorageButton">
 		<ScreenID>AltStorageButton</ScreenID>
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
-			<Y>237</Y>
+			<Y>230</Y>
 		</Location>
 		<Size>
 			<CX>80</CX>
@@ -552,7 +552,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
-			<Y>265</Y>
+			<Y>254</Y>
 		</Location>
 		<Size>
 			<CX>80</CX>
@@ -562,6 +562,23 @@
 		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Dragon's Hoard</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="BIGB_TradeskillDepot">
+		<ScreenID>TradeskillDepot</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>298</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your personal Tradeskill Depot.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Tradeskill Depot</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BIGB_Money0">
@@ -820,6 +837,7 @@
 		<Pieces>BIGB_SharedBankLabel</Pieces>
 		<Pieces>BIGB_AltStorageButton</Pieces>
 		<Pieces>BIGB_DragonHoard</Pieces>
+		<Pieces>BIGB_TradeskillDepot</Pieces>
 		<Pieces>BIGB_FindItemButton</Pieces>
 	</Screen>
 </XML>

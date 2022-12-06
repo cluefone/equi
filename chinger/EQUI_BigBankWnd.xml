@@ -431,6 +431,27 @@
 		<ItemOffsetX>2</ItemOffsetX>
 		<ItemOffsetY>2</ItemOffsetY>
 	</InvSlot>
+
+	<Button item="BIGB_TradeskillDepot">
+		<ScreenID>TradeskillDepot</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>151</LeftAnchorOffset>
+		<TopAnchorOffset>22</TopAnchorOffset>
+		<RightAnchorOffset>227</RightAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your personal Tradeskill Depot.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Tradeskill Depot</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+
 	<Button item="BIGB_AutoButton">
 		<ScreenID>AutoButton</ScreenID>
 		<Font>2</Font>
@@ -438,8 +459,8 @@
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>151</LeftAnchorOffset>
 		<TopAnchorOffset>42</TopAnchorOffset>
-		<RightAnchorOffset>217</RightAnchorOffset>
-		<BottomAnchorOffset>2</BottomAnchorOffset>
+		<RightAnchorOffset>227</RightAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -618,7 +639,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>219</LeftAnchorOffset>
+		<LeftAnchorOffset>229</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
 		<RightAnchorOffset>333</RightAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
@@ -700,7 +721,7 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>219</LeftAnchorOffset>
+		<LeftAnchorOffset>229</LeftAnchorOffset>
 		<TopAnchorOffset>42</TopAnchorOffset>
 		<RightAnchorOffset>333</RightAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
@@ -25057,6 +25078,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>BIGB_BankerName</Pieces>
+		<Pieces>BIGB_TradeskillDepot</Pieces>
 		<Pieces>BIGB_AutoButton</Pieces>
 		<Pieces>BIGB_SharedMoney0</Pieces>
 		<Pieces>BIGB_Money0</Pieces>

@@ -2451,6 +2451,57 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="A_NOS">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_NOSHover">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_NOSSelected">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
 	<Ui2DAnimation item="A_Quarm">
 		<Frames>
 			<Texture>Achievement_hunter_collect_base.tga</Texture>
