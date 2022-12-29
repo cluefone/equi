@@ -1,344 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-
-  <Label item="TRW_FiltersLabel">
-    <ScreenID>TRW_FiltersLabel</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>3</LeftAnchorOffset>
-    <TopAnchorOffset>-100</TopAnchorOffset>
-    <RightAnchorOffset>3</RightAnchorOffset>
-    <BottomAnchorOffset>20</BottomAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Text></Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>false</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <AlignRight>false</AlignRight>
-  </Label>
-  <Button item="TRW_FilterRedButton">
-    <ScreenID>TRW_FilterRedButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>1</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <TooltipReference></TooltipReference>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>true</Style_Checkbox>
-		<BackgroundTextureTint>
-			<R>252</R>
-			<G>0</G>
-			<B>0</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterYellowButton">
-    <ScreenID>TRW_FilterYellowButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>15</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>252</R>
-      <G>252</G>
-      <B>0</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>252</R>
-			<G>252</G>
-			<B>0</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterWhiteButton">
-    <ScreenID>TRW_FilterWhiteButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>29</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>252</R>
-			<G>252</G>
-			<B>252</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterBlueButton">
-    <ScreenID>TRW_FilterBlueButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>43</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>0</R>
-      <G>0</G>
-      <B>252</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>0</R>
-			<G>0</G>
-			<B>252</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterLightBlueButton">
-    <ScreenID>TRW_FilterLightBlueButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>57</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>0</R>
-      <G>252</G>
-      <B>252</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>0</R>
-			<G>252</G>
-			<B>252</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterGreenButton">
-    <ScreenID>TRW_FilterGreenButton</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>71</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>0</R>
-      <G>252</G>
-      <B>0</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>0</R>
-			<G>252</G>
-			<B>0</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Button item="TRW_FilterGray">
-    <ScreenID>TRW_FilterGray</ScreenID>
-    <Font>4</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>85</X>
-      <Y>0</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>15</CY>
-    </Size>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text></Text>
-    <TextColor>
-      <R>200</R>
-      <G>200</G>
-      <B>200</B>
-    </TextColor>
-		<BackgroundTextureTint>
-			<R>200</R>
-			<G>200</G>
-			<B>200</B>
-		</BackgroundTextureTint>
-	<ButtonDrawTemplate>
-    		<Normal>A_CheckBoxPressed</Normal>
-		<Pressed>A_CheckBoxNormal</Pressed>
-		<Disabled>A_CheckBoxNormal</Disabled>
-		<PressedDisabled>A_CheckBoxNormal</PressedDisabled>
-	</ButtonDrawTemplate>
-  </Button>
-  <Listbox item="TRW_TrackingList">
-    <Font>2</Font>
-    <ScreenID>TRW_TrackingList</ScreenID>
-    <DrawTemplate>WDT_InnerGray</DrawTemplate>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <TopAnchorOffset>17</TopAnchorOffset>
-    <RightAnchorOffset>0</RightAnchorOffset>
-    <BottomAnchorOffset>96</BottomAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <Columns>
-      <Width>150</Width>
-    </Columns>
-    <Style_Border>true</Style_Border>
-    <Style_VScroll>true</Style_VScroll>
-  </Listbox>
-  <Label item="TRW_TrackSortLabel">
-    <ScreenID>TRW_TrackSortLabel</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>3</LeftAnchorOffset>
-    <TopAnchorOffset>94</TopAnchorOffset>
-    <RightAnchorOffset>25</RightAnchorOffset>
-    <BottomAnchorOffset>78</BottomAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>Sort</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-  </Label>
-  <Combobox item="TRW_TrackSortCombobox">
-    <ScreenID>TRW_TrackSortCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>28</LeftAnchorOffset>
-    <TopAnchorOffset>94</TopAnchorOffset>
-    <RightAnchorOffset>96</RightAnchorOffset>
-    <BottomAnchorOffset>78</BottomAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <ListHeight>160</ListHeight>
-    <Button>BDT_Combo</Button>
-    <Style_Border>true</Style_Border>
-  </Combobox>
-  <Label item="TRW_TrackPlayersLabel">
-    <ScreenID>TRW_TrackPlayersLabel</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>3</LeftAnchorOffset>
-    <TopAnchorOffset>76</TopAnchorOffset>
-    <RightAnchorOffset>39</RightAnchorOffset>
-    <BottomAnchorOffset>60</BottomAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>Players</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-  </Label>
-  <Combobox item="TRW_TrackPlayersCombobox">
-    <ScreenID>TRW_TrackPlayersCombobox</ScreenID>
-    <DrawTemplate>WDT_Inner</DrawTemplate>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>40</LeftAnchorOffset>
-    <TopAnchorOffset>76</TopAnchorOffset>
-    <RightAnchorOffset>96</RightAnchorOffset>
-    <BottomAnchorOffset>60</BottomAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <ListHeight>160</ListHeight>
-    <Button>BDT_Combo</Button>
-    <Style_Border>true</Style_Border>
-  </Combobox>
-  
   <Label item="TRW_AutoUpateLabel">
     <ScreenID>TRW_AutoUpdateLabel</ScreenID>
-    <Font>2</Font>
-    <Text>Auto Update</Text>
+    <Font>3</Font>
+    <Text>Update Auto</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -355,12 +21,12 @@
     </Location>
     <AutoStretch>true</AutoStretch>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorOffset>45</BottomAnchorOffset>
-    <TopAnchorOffset>59</TopAnchorOffset>
+    <BottomAnchorOffset>193</BottomAnchorOffset>
+    <TopAnchorOffset>213</TopAnchorOffset>
     <LeftAnchorOffset>24</LeftAnchorOffset>
-    <RightAnchorOffset>88</RightAnchorOffset>
+    <RightAnchorOffset>27</RightAnchorOffset>
   </Label>
   <Button item="TRW_AutoUpdateButton">
     <ScreenID>TRW_AutoUpdateButton</ScreenID>
@@ -385,16 +51,319 @@
     <Template>BDT_Checkbox</Template>
     <AutoStretch>true</AutoStretch>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <BottomAnchorOffset>46</BottomAnchorOffset>
-    <RightAnchorOffset>22</RightAnchorOffset>
-    <LeftAnchorOffset>11</LeftAnchorOffset>
+    <BottomAnchorOffset>198</BottomAnchorOffset>
+    <RightAnchorOffset>18</RightAnchorOffset>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <TopAnchorOffset>57</TopAnchorOffset>
+    <TopAnchorOffset>213</TopAnchorOffset>
   </Button>
+
+
+
+
+
+  <Label item="TRW_FiltersLabel">
+    <ScreenID>TRW_FiltersLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>0</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>20</BottomAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>Filters</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+
+
+
+
+  <Button item="TRW_FilterRedButton">
+    <ScreenID>TRW_FilterRedButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>RD</Text>
+    <TextColor>
+      <R>240</R>
+      <G>0</G>
+      <B>0</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterYellowButton">
+    <ScreenID>TRW_FilterYellowButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>26</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>YL</Text>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>0</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterWhiteButton">
+    <ScreenID>TRW_FilterWhiteButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>49</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>WT</Text>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterBlueButton">
+    <ScreenID>TRW_FilterBlueButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>72</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>BL</Text>
+    <TextColor>
+      <R>0</R>
+      <G>0</G>
+      <B>240</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterLightBlueButton">
+    <ScreenID>TRW_FilterLightBlueButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>95</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>LB</Text>
+    <TextColor>
+      <R>0</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterGreenButton">
+    <ScreenID>TRW_FilterGreenButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>118</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>GN</Text>
+    <TextColor>
+      <R>0</R>
+      <G>160</G>
+      <B>60</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Button item="TRW_FilterGray">
+    <ScreenID>TRW_FilterGray</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>141</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>21</CX>
+      <CY>20</CY>
+    </Size>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>true</Style_Checkbox>
+    <Text>GY</Text>
+    <TextColor>
+      <R>80</R>
+      <G>80</G>
+      <B>90</B>
+    </TextColor>
+    <Template>BDT_Normal</Template>
+    <!--<SoundPressed/>-->
+    <!--<SoundUp/>-->
+    <!--<SoundFlyby/>-->
+  </Button>
+
+  <Listbox item="TRW_TrackingList">
+    <ScreenID>TRW_TrackingList</ScreenID>
+    <Font>7</Font>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>0</LeftAnchorOffset>
+    <TopAnchorOffset>36</TopAnchorOffset>
+    <RightAnchorOffset>0</RightAnchorOffset>
+    <BottomAnchorOffset>220</BottomAnchorOffset>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <Columns>
+      <Width>150</Width>
+    </Columns>
+    <Style_Border>true</Style_Border>
+    <Style_VScroll>true</Style_VScroll>
+  </Listbox>
+  <Label item="TRW_TrackSortLabel">
+    <ScreenID>TRW_TrackSortLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>194</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>180</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>Track Sort:</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Combobox item="TRW_TrackSortCombobox">
+    <ScreenID>TRW_TrackSortCombobox</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>178</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>154</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <ListHeight>160</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+  </Combobox>
+  <Label item="TRW_TrackPlayersLabel">
+    <ScreenID>TRW_TrackPlayersLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>150</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>136</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Text>Track Players:</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Combobox item="TRW_TrackPlayersCombobox">
+    <ScreenID>TRW_TrackPlayersCombobox</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>135</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>110</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <ListHeight>160</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+  </Combobox>
+  
   <Label item="TRW_TrackPetsLabel">
     <ScreenID>TRW_TrackPetsLabel</ScreenID>
-    <Font>2</Font>
-    <Text>Pets</Text>
+    <Font>3</Font>
+    <Text>Track Pets</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -411,13 +380,12 @@
     </Location>
     <AutoStretch>true</AutoStretch>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
-    <TopAnchorOffset>45</TopAnchorOffset>
-    <LeftAnchorOffset>67</LeftAnchorOffset>
-    <RightAnchorOffset>88</RightAnchorOffset>
+    <BottomAnchorOffset>79</BottomAnchorOffset>
+    <TopAnchorOffset>99</TopAnchorOffset>
+    <LeftAnchorOffset>24</LeftAnchorOffset>
+    <RightAnchorOffset>27</RightAnchorOffset>
   </Label>
   <Button item="TRW_TrackPetsCheckbox">
     <ScreenID>TRW_TrackPetsCheckbox</ScreenID>
@@ -441,20 +409,18 @@
     </TextColor>
     <Template>BDT_Checkbox</Template>
     <AutoStretch>true</AutoStretch>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <BottomAnchorOffset>32</BottomAnchorOffset>
-    <RightAnchorOffset>65</RightAnchorOffset>
-    <LeftAnchorOffset>54</LeftAnchorOffset>
+    <BottomAnchorOffset>84</BottomAnchorOffset>
+    <RightAnchorOffset>18</RightAnchorOffset>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <TopAnchorOffset>43</TopAnchorOffset>
+    <TopAnchorOffset>99</TopAnchorOffset>
   </Button>
   
   <Label item="TRW_TrackMercsLabel">
     <ScreenID>TRW_TrackMercsLabel</ScreenID>
-    <Font>2</Font>
-    <Text>Mercs</Text>
+    <Font>3</Font>
+    <Text>Track Mercs</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -471,18 +437,18 @@
     </Location>
     <AutoStretch>true</AutoStretch>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorOffset>34</BottomAnchorOffset>
-    <TopAnchorOffset>45</TopAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>53</RightAnchorOffset>
+    <BottomAnchorOffset>54</BottomAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
+    <LeftAnchorOffset>24</LeftAnchorOffset>
+    <RightAnchorOffset>27</RightAnchorOffset>
   </Label>
   <Button item="TRW_TrackMercsCheckbox">
     <ScreenID>TRW_TrackMercsCheckbox</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>16</X>
+      <X>3</X>
       <Y>311</Y>
     </Location>
     <Size>
@@ -501,11 +467,11 @@
     <Template>BDT_Checkbox</Template>
     <AutoStretch>true</AutoStretch>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <BottomAnchorOffset>32</BottomAnchorOffset>
+    <BottomAnchorOffset>59</BottomAnchorOffset>
     <RightAnchorOffset>18</RightAnchorOffset>
-    <LeftAnchorOffset>7</LeftAnchorOffset>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
-    <TopAnchorOffset>43</TopAnchorOffset>
+    <TopAnchorOffset>74</TopAnchorOffset>
   </Button>
   
   <Button item="TRW_TrackButton">
@@ -513,13 +479,13 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>47</LeftAnchorOffset>
-    <TopAnchorOffset>27</TopAnchorOffset>
-    <RightAnchorOffset>96</RightAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
+    <LeftAnchorOffset>3</LeftAnchorOffset>
+    <TopAnchorOffset>45</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+    <BottomAnchorOffset>25</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Track</Text>
@@ -530,7 +496,7 @@
     </TextColor>
     <Template>BDT_Normal</Template>
     <!--<SoundPressed/>-->
-    <!--<<SoundUp/>-->
+    <!--<SoundUp/>-->
     <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_DoneButton">
@@ -539,12 +505,12 @@
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
-    <TopAnchorOffset>27</TopAnchorOffset>
-    <RightAnchorOffset>46</RightAnchorOffset>
+    <TopAnchorOffset>22</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
     <BottomAnchorOffset>2</BottomAnchorOffset>
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
@@ -563,25 +529,23 @@
   </Button>
   <Screen item="TrackingWnd">
     <!--<ScreenID/>-->
-    <!--<Font/>-->
+    <Font>5</Font>
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>0</X>
       <Y>20</Y>
     </Location>
-		<MinHSize>98</MinHSize>
-		<MinVSize>275</MinVSize>
     <Size>
-      <CX>193</CX>
+      <CX>211</CX>
       <CY>500</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <!--<TooltipReference/>-->
-    <Text></Text>
-    <DrawTemplate>WDT_Simple</DrawTemplate>
-    <Style_Titlebar>true</Style_Titlebar>
+    <Text>Tracking Window</Text>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
     <Style_Minimizebox>true</Style_Minimizebox>
     <Style_Border>true</Style_Border>
