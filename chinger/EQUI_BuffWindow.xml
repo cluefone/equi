@@ -432,7 +432,7 @@
 	<Label item="BW_Buff0_Label">
 		<ScreenID>Buff0Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -457,7 +457,7 @@
 	<Label item="BW_Buff1_Label">
 		<ScreenID>Buff1Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -482,7 +482,7 @@
 	<Label item="BW_Buff2_Label">
 		<ScreenID>Buff2Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -507,7 +507,7 @@
 	<Label item="BW_Buff3_Label">
 		<ScreenID>Buff3Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -532,7 +532,7 @@
 	<Label item="BW_Buff4_Label">
 		<ScreenID>Buff4Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -557,7 +557,7 @@
 	<Label item="BW_Buff5_Label">
 		<ScreenID>Buff5Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -582,7 +582,7 @@
 	<Label item="BW_Buff6_Label">
 		<ScreenID>Buff6Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -607,7 +607,7 @@
 	<Label item="BW_Buff7_Label">
 		<ScreenID>Buff7Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -632,7 +632,7 @@
 	<Label item="BW_Buff8_Label">
 		<ScreenID>Buff8Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -657,7 +657,7 @@
 	<Label item="BW_Buff9_Label">
 		<ScreenID>Buff9Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -682,7 +682,7 @@
 	<Label item="BW_Buff10_Label">
 		<ScreenID>Buff10Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -707,7 +707,7 @@
 	<Label item="BW_Buff11_Label">
 		<ScreenID>Buff11Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -732,7 +732,7 @@
 	<Label item="BW_Buff12_Label">
 		<ScreenID>Buff12Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -757,7 +757,7 @@
 	<Label item="BW_Buff13_Label">
 		<ScreenID>Buff13Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -782,7 +782,7 @@
 	<Label item="BW_Buff14_Label">
 		<ScreenID>Buff14Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -807,7 +807,7 @@
 	<Label item="BW_Buff15_Label">
 		<ScreenID>Buff15Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -832,7 +832,7 @@
 	<Label item="BW_Buff16_Label">
 		<ScreenID>Buff16Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -857,7 +857,7 @@
 	<Label item="BW_Buff17_Label">
 		<ScreenID>Buff17Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -882,7 +882,7 @@
 	<Label item="BW_Buff18_Label">
 		<ScreenID>Buff18Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -907,7 +907,7 @@
 	<Label item="BW_Buff19_Label">
 		<ScreenID>Buff19Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -932,7 +932,7 @@
 	<Label item="BW_Buff20_Label">
 		<ScreenID>Buff20Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -957,7 +957,7 @@
 	<Label item="BW_Buff21_Label">
 		<ScreenID>Buff21Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -982,7 +982,7 @@
 	<Label item="BW_Buff22_Label">
 		<ScreenID>Buff22Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1007,7 +1007,7 @@
 	<Label item="BW_Buff23_Label">
 		<ScreenID>Buff23Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1032,7 +1032,7 @@
 	<Label item="BW_Buff24_Label">
 		<ScreenID>Buff24Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1057,7 +1057,7 @@
 	<Label item="BW_Buff25_Label">
 		<ScreenID>Buff25Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1082,7 +1082,7 @@
 	<Label item="BW_Buff26_Label">
 		<ScreenID>Buff26Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1107,7 +1107,7 @@
 	<Label item="BW_Buff27_Label">
 		<ScreenID>Buff27Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1132,7 +1132,7 @@
 	<Label item="BW_Buff28_Label">
 		<ScreenID>Buff28Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1157,7 +1157,7 @@
 	<Label item="BW_Buff29_Label">
 		<ScreenID>Buff29Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1182,7 +1182,7 @@
 	<Label item="BW_Buff30_Label">
 		<ScreenID>Buff30Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1207,7 +1207,7 @@
 	<Label item="BW_Buff31_Label">
 		<ScreenID>Buff31Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1232,7 +1232,7 @@
 	<Label item="BW_Buff32_Label">
 		<ScreenID>Buff32Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1257,7 +1257,7 @@
 	<Label item="BW_Buff33_Label">
 		<ScreenID>Buff33Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1282,7 +1282,7 @@
 	<Label item="BW_Buff34_Label">
 		<ScreenID>Buff34Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1307,7 +1307,7 @@
 	<Label item="BW_Buff35_Label">
 		<ScreenID>Buff35Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1332,7 +1332,7 @@
 	<Label item="BW_Buff36_Label">
 		<ScreenID>Buff36Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1357,7 +1357,7 @@
 	<Label item="BW_Buff37_Label">
 		<ScreenID>Buff37Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1382,7 +1382,7 @@
 	<Label item="BW_Buff38_Label">
 		<ScreenID>Buff38Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1407,7 +1407,7 @@
 	<Label item="BW_Buff39_Label">
 		<ScreenID>Buff39Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1432,7 +1432,7 @@
 	<Label item="BW_Buff40_Label">
 		<ScreenID>Buff40Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
@@ -1457,7 +1457,7 @@
 	<Label item="BW_Buff41_Label">
 		<ScreenID>Buff41Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
+		<Font>3</Font>
 		<Location>
 			<X>16</X>
 			<Y>2</Y>
