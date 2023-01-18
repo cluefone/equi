@@ -111,6 +111,7 @@
 		<Pieces>OW_ALL_SuccessLabel</Pieces>
 		<Pieces>OW_ALL_SuccessValue</Pieces>
 		<Pieces>OW_ALL_PreviewRewardButton</Pieces>
+		<Pieces>OW_ALL_AutoFillButton</Pieces>
 		<Pieces>OW_ALL_MinionsLabel</Pieces>
 		<Pieces>OW_ALL_FinishEarlyButton</Pieces>
 		<Pieces>OW_ALL_CompleteQuestButton</Pieces>
@@ -270,6 +271,22 @@
 		<AlignRight>true</AlignRight>
 	</Label>
 
+	<Button item = "OW_ALL_AutoFillButton">
+		<ScreenID>OW_ALL_AutoFillButton</ScreenID>
+		<Location>
+			<X>400</X>
+			<Y>275</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>25</CY>
+		</Size>
+		<TooltipReference>Click to automatically assign agents to this Overseer Quest</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Auto-Fill</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
 	<Button item = "OW_ALL_PreviewRewardButton">
 		<ScreenID>OW_ALL_PreviewRewardButton</ScreenID>
 		<Location>
