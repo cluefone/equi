@@ -130,7 +130,8 @@
   	<Ui2DAnimation item="A_DarkMap">
     		<Cycle>false</Cycle>
     		<Frames>
-      		<Texture>MVW_Dark.tga</Texture>
+      		<!-- <Texture>MVW_Dark.tga</Texture> -->
+			<Texture>cart.tga</Texture>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
