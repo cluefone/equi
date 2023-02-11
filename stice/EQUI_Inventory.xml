@@ -1050,44 +1050,6 @@
 			<Style_Transparent>false</Style_Transparent>
 			<!--<TooltipReference/>-->
 		  </InvSlot>
-		  <InvSlot item="InvSlot33">
-			<ScreenID>InvSlot33</ScreenID>
-			<Font>2</Font>
-			<RelativePosition>true</RelativePosition>
-			<Background>A_RecessedBox</Background>
-			<EQType>inventory/Equip 33</EQType>
-			<Location>
-			  <X>322</X>
-			  <Y>212</Y>
-			</Location>
-			<Size>
-			  <CX>42</CX>
-			  <CY>42</CY>
-			</Size>
-			<EQType>33</EQType>
-			<Style_VScroll>false</Style_VScroll>
-			<Style_HScroll>false</Style_HScroll>
-			<Style_Transparent>false</Style_Transparent>
-		</InvSlot>
-		  <InvSlot item="InvSlot34">
-			<ScreenID>InvSlot34</ScreenID>
-			<Font>2</Font>
-			<RelativePosition>true</RelativePosition>
-			<Background>A_RecessedBox</Background>
-			<EQType>inventory/Equip 34</EQType>
-			<Location>
-			  <X>364</X>
-			  <Y>212</Y>
-			</Location>
-			<Size>
-			  <CX>42</CX>
-			  <CY>42</CY>
-			</Size>
-			<EQType>34</EQType>
-			<Style_VScroll>false</Style_VScroll>
-			<Style_HScroll>false</Style_HScroll>
-			<Style_Transparent>false</Style_Transparent>
-		</InvSlot>
 		  <Label item="IW_Name">
 			<ScreenID>NameLabel</ScreenID>
 			<EQType>1</EQType>
@@ -1184,7 +1146,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>83</Y>
 			</Location>
 			<Size>
@@ -1275,7 +1237,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>93</Y>
 			</Location>
 			<Size>
@@ -1366,7 +1328,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>103</Y>
 			</Location>
 			<Size>
@@ -1457,7 +1419,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>113</Y>
 			</Location>
 			<Size>
@@ -1551,7 +1513,7 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>3</X>
+			  <X>0</X>
 			  <Y>123</Y>
 			</Location>
 			<Size>
@@ -2392,12 +2354,12 @@
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>18</X>
-			<Y>227</Y>
+			<X>3</X>
+			<Y>223</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
-			<CY>23</CY>
+			<CY>15</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
@@ -2603,12 +2565,12 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>107</X>
+			  <X>332</X>
 			  <Y>215</Y>
 			</Location>
 			<Size>
-			  <CX>105</CX>
-			  <CY>16</CY>
+			  <CX>74</CX>
+			  <CY>13</CY>
 			</Size>
 			<Style_Transparent>false</Style_Transparent>
 			<!--<TooltipReference/>-->
@@ -2638,12 +2600,12 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>212</X>
+			  <X>257</X>
 			  <Y>215</Y>
 			</Location>
 			<Size>
-			  <CX>105</CX>
-			  <CY>16</CY>
+			  <CX>74</CX>
+			  <CY>13</CY>
 			</Size>
 			<Style_Transparent>false</Style_Transparent>
 			<!--<TooltipReference/>-->
@@ -2673,12 +2635,12 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>107</X>
-			  <Y>233</Y>
+			  <X>182</X>
+			  <Y>215</Y>
 			</Location>
 			<Size>
-			  <CX>105</CX>
-			  <CY>16</CY>
+			  <CX>74</CX>
+			  <CY>13</CY>
 			</Size>
 			<Style_Transparent>false</Style_Transparent>
 			<!--<TooltipReference/>-->
@@ -2708,12 +2670,12 @@
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
-			  <X>212</X>
-			  <Y>233</Y>
+			  <X>107</X>
+			  <Y>215</Y>
 			</Location>
 			<Size>
-			  <CX>105</CX>
-			  <CY>16</CY>
+			  <CX>74</CX>
+			  <CY>13</CY>
 			</Size>
 			<Style_Transparent>false</Style_Transparent>
 			<!--<TooltipReference/>-->
@@ -2744,7 +2706,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>162</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>53</CX>
@@ -2774,7 +2736,7 @@
 				<RelativePosition>true</RelativePosition>
 				<Location>
 					<X>216</X>
-					<Y>257</Y>
+					<Y>238</Y>
 				</Location>
 				<Size>
 					<CX>54</CX>
@@ -2796,7 +2758,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>77</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>29</CX>
@@ -2826,7 +2788,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>3</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>38</CX>
@@ -2856,7 +2818,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>275</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>65</CX>
@@ -2926,7 +2888,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>341</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>65</CX>
@@ -2956,7 +2918,7 @@
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>107</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>29</CX>
@@ -3024,41 +2986,65 @@
 				</TextColor>
 				<Template>BDT_Normal</Template>
 			</Button>
-			<Button item="IW_UpgradeCharacter">
-				<ScreenID>IW_UpgradeCharacter</ScreenID>
-				<Font>.5</Font>
-					<RelativePosition>true</RelativePosition>
-					<AutoStretch>true</AutoStretch>
-					<TopAnchorToTop>false</TopAnchorToTop>
-					<BottomAnchorToTop>false</BottomAnchorToTop>
-					<LeftAnchorToLeft>false</LeftAnchorToLeft>
-					<RightAnchorToLeft>false</RightAnchorToLeft>
-					<LeftAnchorOffset>48</LeftAnchorOffset>
-					<TopAnchorOffset>90</TopAnchorOffset>
-					<RightAnchorOffset>3</RightAnchorOffset>
-					<BottomAnchorOffset>70</BottomAnchorOffset>
-					<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Upgrade Character</Text>
-				<TextColor>
-					<R>255</R>
-					<G>233</G>
-					<B>129</B>
-				</TextColor>
-				<BackgroundTextureTint>
-					<R>0</R>
-					<G>255</G>
-					<B>0</B>
-				</BackgroundTextureTint>
-				<Template>BDT_Normal</Template>
-			</Button>
+
+  <Combobox item="IW_HeroicUpgradeSelection">
+    <ScreenID>IW_HeroicUpgradeSelection</ScreenID>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <AutoStretchList>true</AutoStretchList>
+    <TooltipReference>Select which level of Heroic Character to use.</TooltipReference>
+     <RelativePosition>true</RelativePosition>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<LeftAnchorOffset>50</LeftAnchorOffset>
+	<TopAnchorOffset>21</TopAnchorOffset>
+	<RightAnchorOffset>190</RightAnchorOffset>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <ListHeight>40</ListHeight>
+    <Button>BDT_Combo</Button>
+    <Style_Border>true</Style_Border>
+  </Combobox>
+
+  <Button item="IW_UpgradeCharacter">
+    <ScreenID>IW_UpgradeCharacter</ScreenID>
+    <Font>.5</Font>
+     <RelativePosition>true</RelativePosition>
+	<AutoStretch>true</AutoStretch>
+	<TopAnchorToTop>false</TopAnchorToTop>
+	<BottomAnchorToTop>false</BottomAnchorToTop>
+	<LeftAnchorToLeft>true</LeftAnchorToLeft>
+	<RightAnchorToLeft>true</RightAnchorToLeft>
+	<LeftAnchorOffset>5</LeftAnchorOffset>
+	<TopAnchorOffset>21</TopAnchorOffset>
+	<RightAnchorOffset>45</RightAnchorOffset>
+	<BottomAnchorOffset>1</BottomAnchorOffset>
+    <Style_Transparent>false</Style_Transparent>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Upgrade Character</Text>
+    <TextColor>
+      <R>255</R>
+      <G>233</G>
+      <B>129</B>
+    </TextColor>
+    <BackgroundTextureTint>
+      <R>0</R>
+      <G>255</G>
+      <B>0</B>
+    </BackgroundTextureTint>
+    <TooltipReference>Upgrade current character to a fully equipped Heroic Character.</TooltipReference>
+    <Template>BDT_Normal</Template>
+  </Button>
 			<Button item="IW_Tinting">
 			<ScreenID>IW_Tinting</ScreenID>
 			<Font>2</Font>
 			<RelativePosition>true</RelativePosition>
 			<Location>
 			  <X>137</X>
-			  <Y>257</Y>
+			  <Y>238</Y>
 			</Location>
 			<Size>
 			  <CX>24</CX>
@@ -3110,7 +3096,6 @@
 			  <CX>409</CX>
 			  <CY>265</CY>
 			</Size>
-
 			<Pieces>InvSlot0</Pieces>
 			<Pieces>InvSlot1</Pieces>
 			<Pieces>InvSlot2</Pieces>
@@ -3144,8 +3129,6 @@
 			<Pieces>InvSlot30</Pieces>
 			<Pieces>InvSlot31</Pieces>
 			<Pieces>InvSlot32</Pieces>
-			<Pieces>InvSlot33</Pieces>
-			<Pieces>InvSlot34</Pieces>
 			<Pieces>IW_Money0</Pieces>
 			<Pieces>IW_Money1</Pieces>
 			<Pieces>IW_Money2</Pieces>
@@ -8005,10 +7988,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>51</RightAnchorOffset>
-		<BottomAnchorOffset>55</BottomAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -8037,10 +8020,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<TopAnchorOffset>207</TopAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>187</TopAnchorOffset>
 		<RightAnchorOffset>51</RightAnchorOffset>
-		<BottomAnchorOffset>2</BottomAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</STMLbox>
@@ -8202,7 +8185,7 @@
 			<Pieces>InvSlotKrono</Pieces>
 			<Pieces>IW_ConsumeKrono</Pieces>
 			<Pieces>IW_UpgradeCharacter</Pieces>
-
+    			<Pieces>IW_HeroicUpgradeSelection</Pieces>
 			<Location>
 			  <X>0</X>
 			  <Y>22</Y>
@@ -10121,7 +10104,7 @@
 				<RelativePosition>true</RelativePosition>
 				<Location>
 					<X>42</X>
-					<Y>257</Y>
+					<Y>238</Y>
 				</Location>
 				<Size>
 					<CX>34</CX>
@@ -10201,7 +10184,7 @@
 			</Location>
 			<Size>
 			  <CX>412</CX>
-			  <CY>320</CY>
+			  <CY>303</CY>
 			</Size>
 			<Text></Text>
 			<Style_VScroll>false</Style_VScroll>

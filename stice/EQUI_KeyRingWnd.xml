@@ -656,7 +656,7 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>140</LeftAnchorOffset>
+		<LeftAnchorOffset>170</LeftAnchorOffset>
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<TopAnchorOffset>33</TopAnchorOffset>
 		<BottomAnchorOffset>20</BottomAnchorOffset>
