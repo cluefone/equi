@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii" ?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	
+
 	<TextureInfo item="dragitem1.dds">
 		<Size>
 			<CX>256</CX>
@@ -409,13 +409,13 @@
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
-	</TextureInfo>	
+	</TextureInfo>
 	<TextureInfo item="dragitem69.dds">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
-	</TextureInfo>	
+	</TextureInfo>
 	<TextureInfo item="dragitem70.dds">
 		<Size>
 			<CX>256</CX>
@@ -1915,7 +1915,127 @@
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
-	</TextureInfo>	
+	</TextureInfo>
+	<TextureInfo item="dragitem320.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem321.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem322.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem323.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem324.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem325.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem326.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem327.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem328.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem329.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem330.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem331.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem332.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem333.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem334.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem335.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem336.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem337.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem338.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="dragitem339.dds">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
 	<Ui2DAnimation item="A_DragItem">
 		<Cycle>false</Cycle>
 		<Grid>true</Grid>
@@ -2961,7 +3081,7 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>	
+		</Frames>
 		<Frames>
 			<Texture>dragitem66.dds</Texture>
 			<Location>
@@ -2977,7 +3097,7 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>	
+		</Frames>
 		<Frames>
 			<Texture>dragitem67.dds</Texture>
 			<Location>
@@ -3009,7 +3129,7 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>	
+		</Frames>
 		<Frames>
 			<Texture>dragitem69.dds</Texture>
 			<Location>
@@ -3025,7 +3145,7 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>	
+		</Frames>
 		<Frames>
 			<Texture>dragitem70.dds</Texture>
 			<Location>
@@ -7025,6 +7145,326 @@
 				<Y>0</Y>
 			</Hotspot>
 			<Duration>1000</Duration>
-		</Frames>		
+		</Frames>
+		<Frames>
+			<Texture>dragitem320.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem321.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem322.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem323.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem324.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem325.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem326.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem327.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem328.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem329.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem330.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem331.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem332.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem333.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem334.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem335.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem336.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem337.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem338.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+		<Frames>
+			<Texture>dragitem339.dds</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>256</CX>
+				<CY>256</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
 	</Ui2DAnimation>
 </XML>
