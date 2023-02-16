@@ -199,7 +199,6 @@
 		<Include>EQUI_ZoneGuideWnd.xml</Include>		
 		<Include>EQUI_ZonePathWnd.xml</Include>
 		<Include>EQUI_AlertHistoryWnd.xml</Include>
-		<Include>EQUI_ShareWnd.xml</Include>
 		<Include>EQUI_AggroMeterWnd.xml</Include>
 		<Include>EQUI_BazaarConfirmationWnd.xml</Include>
 		<Include>EQUI_AdvancedLootWnd.xml</Include>
