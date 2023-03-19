@@ -79,7 +79,6 @@
 0^4^-1^Looking for Group^TOGGLE_LFGROUPWIN
 0^4^-1^Looking for Guild^TOGGLE_LFGUILDWIN
 0^4^-1^Raid^TOGGLE_RAIDWIN
-0^4^-1^Social Sharing^CMD_SOCIAL_SHARE
 0^5^9^Players
 0^3
 0^4^-1^Adventures^TOGGLE_ADVREQUESTWIN
