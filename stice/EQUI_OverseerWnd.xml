@@ -991,7 +991,7 @@
 	<Screen item="OW_OQP_MinionSelectionScreen">
 		<ScreenID>OW_OQP_MinionSelectionScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<MinVSize>30</MinVSize>
+		<MinVSize>150</MinVSize>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Style_Border>true</Style_Border>
 		<Pieces>OW_OQP_AvailableAgentsLabel</Pieces>
@@ -2666,7 +2666,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>OverseerWnd</TooltipReference>
 		<DrawTemplate>WDT_Simple</DrawTemplate>
-		<MinVSize>380</MinVSize>
+		<MinVSize>650</MinVSize>
 		<MinHSize>615</MinHSize>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>false</Style_Qmarkbox>
