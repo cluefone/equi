@@ -2083,6 +2083,62 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
+	<!-- UI Scale slider -->
+	<Label item="ODP_UIScaleLabel">
+		<ScreenID>ODP_UIScaleLabel</ScreenID>
+		<Location>
+			<X>190</X>
+			<Y>439</Y>
+		</Location>
+		<Size>
+			<CX>160</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>UI Scale</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Slider item="ODP_UIScaleSlider">
+		<ScreenID>ODP_UIScaleSlider</ScreenID>
+		<Location>
+			<X>190</X>
+			<Y>456</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>16</CY>
+		</Size>
+		<SliderArt>SDT_DefSlider</SliderArt>
+	</Slider>
+	<Label item="ODP_UIScaleSliderValueLabel">
+		<ScreenID>ODP_UIScaleSliderValueLabel</ScreenID>
+		<Location>
+			<X>295</X>
+			<Y>456</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>1.0</Text>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+	<Button item="ODP_ApplyUIScaleButton">
+		<ScreenID>ODP_ApplyUIScaleButton</ScreenID>
+		<Location>
+			<X>325</X>
+			<Y>450</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>Apply</Text>
+		<TooltipReference>Apply the change to UI scale.</TooltipReference>
+		<Template>BDT_BigNormal</Template>
+	</Button>
 	<!-- Load Screen -->
 	<Label item="ODP_LoadScreenLabel">
 		<ScreenID>ODP_LoadScreenLabel</ScreenID>
@@ -2866,6 +2922,10 @@
 		<Pieces>ODP_LODBiasLabel</Pieces>
 		<Pieces>ODP_LODBiasSlider</Pieces>
 		<Pieces>ODP_LODBiasSliderValueLabel</Pieces>
+		<Pieces>ODP_UIScaleLabel</Pieces>
+		<Pieces>ODP_UIScaleSlider</Pieces>
+		<Pieces>ODP_UIScaleSliderValueLabel</Pieces>
+		<Pieces>ODP_ApplyUIScaleButton</Pieces>
 		<Pieces>ODP_SkyLabel</Pieces>
 		<Pieces>ODP_ParticlesLabel</Pieces>
 		<Pieces>ODP_AdvancedButton</Pieces>

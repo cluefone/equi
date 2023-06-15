@@ -581,6 +581,49 @@
 			<Disabled>A_MailBtnDisabled</Disabled>
 		</ButtonDrawTemplate>
 	</Button>
+	<Button item = "SELW_MailNewToggleButton">
+		<ScreenID>SELW_MailNewToggleButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>420</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>26</CX>
+			<CY>26</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<TooltipReference>Mail</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_GotMailBtnNormal</Normal>
+			<Pressed>A_GotMailBtnPressed</Pressed>
+			<Flyby>A_GotMailBtnFlyby</Flyby>
+			<PressedFlyby>A_GotMailBtnPressedFlyby</PressedFlyby>
+			<Disabled>A_MailBtnDisabled</Disabled>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "SELW_MailRedToggleButton">
+		<ScreenID>SELW_MailRedToggleButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>420</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>26</CX>
+			<CY>26</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<TooltipReference>Mail</TooltipReference>
+		<ButtonDrawTemplate>
+			<Normal>A_GotMailBtnNormal</Normal>
+			<Pressed>A_GotMailBtnPressed</Pressed>
+			<Flyby>A_GotMailBtnFlyby</Flyby>
+			<PressedFlyby>A_GotMailBtnPressedFlyby</PressedFlyby>
+			<Disabled>A_MailBtnDisabled</Disabled>
+		</ButtonDrawTemplate>
+	</Button>
 
 	<Button item = "SELW_HelpToggleButton">
 		<ScreenID>SELW_HelpToggleButton</ScreenID>
@@ -638,6 +681,8 @@
 			<Pieces>SELW_JournalToggleButton</Pieces>
 			<Pieces>SELW_MercenariesToggleButton</Pieces>
 			<Pieces>SELW_MailToggleButton</Pieces>
+			<Pieces>SELW_MailNewToggleButton</Pieces>
+			<Pieces>SELW_MailRedToggleButton</Pieces>
 			<Pieces>SELW_HelpToggleButton</Pieces>
 	</Screen>
 
