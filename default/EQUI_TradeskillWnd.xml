@@ -753,7 +753,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Toggle to automatically combine the current recipe until your components are exhausted or your inventory is full.</TooltipReference>
+		<TooltipReference>Toggle to automatically combine the current recipe until your components are exhausted or your inventory is full. Any items created will be placed directly in your inventory.</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Make All</Text>
 		<Template>BDT_CheckboxWithText</Template>

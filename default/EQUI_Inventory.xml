@@ -1254,7 +1254,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences success to make a successful attack, damage done, and chance raise skills</TooltipReference>
+    <TooltipReference>Influences chance to hit, damage done, and chance raise skills</TooltipReference>
   </Label>
   <Label item="IW_DEXNumber">
     <ScreenID>DEXNumberLabel</ScreenID>
@@ -3730,7 +3730,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences success to make a successful attack, damage done, and chance to skill up</TooltipReference>
+    <TooltipReference>Influences chance to hit, damage done, and chance to skill up</TooltipReference>
   </Label>
   <Label item="IWS_CurrentDexterity">
     <EQType>240</EQType>
@@ -7055,7 +7055,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Shows the speed at which you attack - the base is 100%</TooltipReference>
+    <TooltipReference>Shows the speed at which your mercenary attacks - the base is 100%</TooltipReference>
   </Label>
   <Label item="IWM_HasteNumber">
     <EQType>346</EQType>
@@ -7141,7 +7141,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>The number of hit points you will regenerate while in combat</TooltipReference>
+    <TooltipReference>The number of hit points your mercenary will regenerate while in combat</TooltipReference>
   </Label>
   <Label item="IWM_CurrentCombatHPRegen">
     <EQType>354</EQType>
@@ -7183,7 +7183,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>The number of mana points you will regenerate while in combat</TooltipReference>
+    <TooltipReference>The number of mana points your mercenary will regenerate while in combat</TooltipReference>
   </Label>
   <Label item="IWM_CurrentCombatManaRegen">
     <EQType>355</EQType>
@@ -7225,7 +7225,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>The number of endurance points you will regenerate while in combat</TooltipReference>
+    <TooltipReference>The number of endurance points your mercenary will regenerate while in combat</TooltipReference>
   </Label>
   <Label item="IWM_CurrentCombatEndRegen">
     <EQType>356</EQType>
@@ -7287,7 +7287,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Determines your encumberance limit and is a factor in melee damage</TooltipReference>
+    <TooltipReference>Determines your mercenary's encumbrance limit and is a factor in melee damage</TooltipReference>
   </Label>
   <Label item="IWM_CurrentStrength">
     <EQType>347</EQType>
@@ -7374,7 +7374,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences your hit point and endurance totals</TooltipReference>
+    <TooltipReference>Influences your mercenary's hit point and endurance totals</TooltipReference>
   </Label>
   <Label item="IWM_CurrentStamina">
     <EQType>348</EQType>
@@ -7461,7 +7461,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+    <TooltipReference>Determines your mercenary's mana (for some classes) and influences your mercenary's chance to raise skills</TooltipReference>
   </Label>
   <Label item="IWM_CurrentIntelligence">
     <EQType>349</EQType>
@@ -7548,7 +7548,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+    <TooltipReference>Determines your mercenary's mana (for some classes) and influences your mercenary's chance to raise skills</TooltipReference>
   </Label>
   <Label item="IWM_CurrentWisdom">
     <EQType>350</EQType>
@@ -7635,7 +7635,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences your AC and helps you avoid incoming damage</TooltipReference>
+    <TooltipReference>Influences your mercenary's AC and helps your mercenary avoid incoming damage</TooltipReference>
   </Label>
   <Label item="IWM_CurrentAgility">
     <EQType>351</EQType>
@@ -7722,7 +7722,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences success to make a successful attack, damage done, and chance to skill up</TooltipReference>
+    <TooltipReference>Influences chance to hit, damage done, and chance to skill up</TooltipReference>
   </Label>
   <Label item="IWM_CurrentDexterity">
     <EQType>352</EQType>
@@ -7809,7 +7809,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Influences pricing on many vendors and influences success of charm and memorization spells</TooltipReference>
+    <TooltipReference>Influences pricing on many vendors and influences success of charm and mesmerization spells</TooltipReference>
   </Label>
   <Label item="IWM_CurrentCharisma">
     <EQType>353</EQType>
@@ -7916,7 +7916,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Adds to the effectiveness of your healing spells</TooltipReference>
+    <TooltipReference>Adds to the effectiveness of your mercenary's healing spells</TooltipReference>
   </Label>
   <Label item="IWM_CurrentHealAmount">
     <EQType>357</EQType>
@@ -7958,7 +7958,7 @@
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
-    <TooltipReference>Adds to the effectiveness of your damage spells</TooltipReference>
+    <TooltipReference>Adds to the effectiveness of your mercenary's damage spells</TooltipReference>
   </Label>
   <Label item="IWM_CurrentSpellDamage">
     <EQType>358</EQType>

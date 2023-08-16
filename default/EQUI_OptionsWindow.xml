@@ -2136,8 +2136,30 @@
 			<CY>20</CY>
 		</Size>
 		<Text>Apply</Text>
-		<TooltipReference>Apply the change to UI scale.</TooltipReference>
+		<TooltipReference>Apply the change to UI scale. Only applies to converted windows while using the new UI engine.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
+	</Button>
+	<!-- Old UI Engine -->
+	<Button item="ODP_UseNewEngineCheckbox">
+		<ScreenID>ODP_UseNewEngineCheckbox</ScreenID>
+		<Location>
+			<X>190</X>
+			<Y>480</Y>
+		</Location>
+		<Size>
+			<CX>160</CX>
+			<CY>18</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Use New UI Engine</Text>
+		<TooltipReference>Uncheck this to revert to the old UI engine. REQUIRES GAME RESTART</TooltipReference>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
 	</Button>
 	<!-- Load Screen -->
 	<Label item="ODP_LoadScreenLabel">
@@ -2926,6 +2948,7 @@
 		<Pieces>ODP_UIScaleSlider</Pieces>
 		<Pieces>ODP_UIScaleSliderValueLabel</Pieces>
 		<Pieces>ODP_ApplyUIScaleButton</Pieces>
+		<Pieces>ODP_UseNewEngineCheckbox</Pieces>
 		<Pieces>ODP_SkyLabel</Pieces>
 		<Pieces>ODP_ParticlesLabel</Pieces>
 		<Pieces>ODP_AdvancedButton</Pieces>
