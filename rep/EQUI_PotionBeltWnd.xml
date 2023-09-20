@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<InvSlot item="clkPotionSlot5">
+		<ScreenID>InvSlot320</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>29</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/0</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPotionSlot6">
+		<ScreenID>InvSlot321</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>58</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPotionSlot7">
+		<ScreenID>InvSlot322</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>87</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/2</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkChest">
+		<ScreenID>InvSlot17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvChest</Background>
+		<EQType>inventory/Equip 17</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkWaist">
+		<ScreenID>InvSlot20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>29</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvWaist</Background>
+		<EQType>inventory/Equip 20</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkFace">
+		<ScreenID>InvSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>58</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvFace</Background>
+		<EQType>inventory/Equip 3</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkLEar">
+		<ScreenID>InvSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>87</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvEar</Background>
+		<EQType>inventory/Equip 1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkNeck">
+		<ScreenID>InvSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>116</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvNeck</Background>
+		<EQType>inventory/Equip 5</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkShoulders">
+		<ScreenID>InvSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>145</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvShoulders</Background>
+		<EQType>inventory/Equip 6</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkRange">
+		<ScreenID>InvSlot11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>174</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvRange</Background>
+		<EQType>inventory/Equip 11</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkLRing">
+		<ScreenID>InvSlot15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>203</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvRing</Background>
+		<EQType>inventory/Equip 15</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkBack">
+		<ScreenID>InvSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>232</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvAboutBody</Background>
+		<EQType>inventory/Equip 8</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort0">
+		<ScreenID>Port0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/21</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort1">
+		<ScreenID>Port1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>29</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/22</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort2">
+		<ScreenID>Port2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>58</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/23</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort3">
+		<ScreenID>Port3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>87</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/24</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort4">
+		<ScreenID>Port4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>116</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/25</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort5">
+		<ScreenID>Port5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>145</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/26</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort6">
+		<ScreenID>Port6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>174</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/27</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort7">
+		<ScreenID>Port7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>203</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/28</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPort8">
+		<ScreenID>Port8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>232</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/29</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc0">
+		<ScreenID>Misc0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/30</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc1">
+		<ScreenID>Misc1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>29</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/31</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc2">
+		<ScreenID>Misc2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>58</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/32</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc3">
+		<ScreenID>Misc3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>87</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/33</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc4">
+		<ScreenID>Misc4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>116</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/34</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc5">
+		<ScreenID>Misc5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>145</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/35</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc6">
+		<ScreenID>Misc6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>174</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/36</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc7">
+		<ScreenID>Misc7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>203</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/37</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkMisc8">
+		<ScreenID>Misc8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>232</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/38</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility0">
+		<ScreenID>Utility0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>385</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/3</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility1">
+		<ScreenID>Utility1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>414</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/4</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility2">
+		<ScreenID>Utility2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>443</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/5</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility3">
+		<ScreenID>Utility3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>472</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/6</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility4">
+		<ScreenID>Utility4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>385</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/7</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility5">
+		<ScreenID>Utility5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>414</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/8</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility6">
+		<ScreenID>Utility6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>443</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/9</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkUtility7">
+		<ScreenID>Utility7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>472</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/10</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkDPS0">
+		<ScreenID>DPS0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>504</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/11</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkDPS1">
+		<ScreenID>DPS1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>533</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/12</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkDPS2">
+		<ScreenID>DPS2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>504</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/13</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkDPS3">
+		<ScreenID>DPS3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>533</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/14</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkHeal0">
+		<ScreenID>Heal0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>565</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/15</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkHeal1">
+		<ScreenID>Heal1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>594</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/16</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkHeal2">
+		<ScreenID>Heal2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>565</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/17</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkHeal3">
+		<ScreenID>Heal3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>594</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/18</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPet0">
+		<ScreenID>Pet0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>626</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/19</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<InvSlot item="clkPet1">
+		<ScreenID>Pet1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>626</X>
+			<Y>29</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 32/20</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+	<Page item="PW_BuffsPage">
+		<ScreenID>BuffPage</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TabText>Buffs</TabText>
+		<TabTextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TabTextColor>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>clkChest</Pieces>
+		<Pieces>clkFace</Pieces>
+		<Pieces>clkLEar</Pieces>
+		<Pieces>clkWaist</Pieces>
+		<Pieces>clkNeck</Pieces>
+		<Pieces>clkShoulders</Pieces>
+		<Pieces>clkBack</Pieces>
+		<Pieces>clkLRing</Pieces>
+		<Pieces>clkRange</Pieces>
+	</Page>
+	<Page item="PW_PortsPage">
+		<ScreenID>PortsPage</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TabText>Ports</TabText>
+		<TabTextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TabTextColor>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>clkPort0</Pieces>
+		<Pieces>clkPort1</Pieces>
+		<Pieces>clkPort2</Pieces>
+		<Pieces>clkPort3</Pieces>
+		<Pieces>clkPort4</Pieces>
+		<Pieces>clkPort5</Pieces>
+		<Pieces>clkPort6</Pieces>
+		<Pieces>clkPort7</Pieces>
+		<Pieces>clkPort8</Pieces>
+	</Page>
+	<Page item="PW_MiscPage">
+		<ScreenID>MiscPage</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TabText>Misc</TabText>
+		<TabTextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TabTextColor>
+		<TabTextActiveColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TabTextActiveColor>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>clkMisc0</Pieces>
+		<Pieces>clkMisc1</Pieces>
+		<Pieces>clkMisc2</Pieces>
+		<Pieces>clkMisc3</Pieces>
+		<Pieces>clkMisc4</Pieces>
+		<Pieces>clkMisc5</Pieces>
+		<Pieces>clkMisc6</Pieces>
+		<Pieces>clkMisc7</Pieces>
+		<Pieces>clkMisc8</Pieces>
+	</Page>
+	<TabBox item="PW_SubWindows">
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>false</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Location>
+			<X>116</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>268</CX>
+			<CY>56</CY>
+		</Size>
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+		<Pages>Page:PW_BuffsPage</Pages>
+		<Pages>Page:PW_PortsPage</Pages>
+		<Pages>Page:PW_MiscPage</Pages>
+	</TabBox>
+	<Screen item="PotionBeltWnd">
+		<Text>Potion Belt</Text>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>196</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>655</CX>
+			<CY>62</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<MinHSize>501</MinHSize>
+		<MaxHSize>655</MaxHSize>
+		<MinVSize>58</MinVSize>
+		<MaxVSize>58</MaxVSize>
+		<Pieces>clkPotionSlot5</Pieces>
+		<Pieces>clkPotionSlot6</Pieces>
+		<Pieces>clkPotionSlot7</Pieces>
+		<Pieces>PW_SubWindows</Pieces>
+		<Pieces>clkUtility0</Pieces>
+		<Pieces>clkUtility1</Pieces>
+		<Pieces>clkUtility2</Pieces>
+		<Pieces>clkUtility3</Pieces>
+		<Pieces>clkUtility4</Pieces>
+		<Pieces>clkUtility5</Pieces>
+		<Pieces>clkUtility6</Pieces>
+		<Pieces>clkUtility7</Pieces>
+		<Pieces>clkDPS0</Pieces>
+		<Pieces>clkDPS1</Pieces>
+		<Pieces>clkDPS2</Pieces>
+		<Pieces>clkDPS3</Pieces>
+		<Pieces>clkHeal0</Pieces>
+		<Pieces>clkHeal1</Pieces>
+		<Pieces>clkHeal2</Pieces>
+		<Pieces>clkHeal3</Pieces>
+		<Pieces>clkPet0</Pieces>
+		<Pieces>clkPet1</Pieces>
+	</Screen>
+</XML>
