@@ -120,6 +120,25 @@
     <Text>Search</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
+  <Button item="BTRSRCH_ResetButton">
+		<ScreenID>ResetButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+    <LeftAnchorOffset>61</LeftAnchorOffset>
+		<TopAnchorOffset>24</TopAnchorOffset>
+    <RightAnchorOffset>3</RightAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+    <TopAnchorToTop>false</TopAnchorToTop>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <LeftAnchorToLeft>false</LeftAnchorToLeft>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <TooltipReference>Resets search criteria.</TooltipReference>
+		<Text>Reset</Text>
+		<Template>BDT_SmallNormal</Template>
+		<!--<SoundPressed/>-->
+		<!--<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+	</Button>
   <Screen item="BTRSRCH_SearchWnd">
     <ScreenID>SearchWnd</ScreenID>
     <!--<Font/>-->
@@ -146,6 +165,7 @@
     <Pieces>BTRSRCH_PlayerCombo</Pieces>
     <Pieces>BTRSRCH_RefreshInventoryButton</Pieces>
     <Pieces>BTRSRCH_SearchButton</Pieces>
+    <Pieces>BTRSRCH_ResetButton</Pieces>
   </Screen>
   <Label item="BTRSRCH_BuyLineLabel">
     <ScreenID />
