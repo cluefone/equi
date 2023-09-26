@@ -152,11 +152,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
-			<X>75</X>
+			<X>37</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>70</CX>
+			<CX>105</CX>
 			<CY>14</CY>
 		</Size>
 		<Text>0</Text>
@@ -174,11 +174,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
-			<X>75</X>
+			<X>37</X>
 			<Y>15</Y>
 		</Location>
 		<Size>
-			<CX>70</CX>
+			<CX>105</CX>
 			<CY>14</CY>
 		</Size>
 		<Text>0</Text>
@@ -196,11 +196,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
-			<X>75</X>
+			<X>37</X>
 			<Y>15</Y>
 		</Location>
 		<Size>
-			<CX>70</CX>
+			<CX>105</CX>
 			<CY>14</CY>
 		</Size>
 		<Text>0</Text>
@@ -297,7 +297,7 @@
 			<CX>108</CX>
 			<CY>41</CY>
 		</Size>
-		<TextOffsetX>8</TextOffsetX>
+		<TextOffsetX>3</TextOffsetX>
 		<GaugeOffsetY>33</GaugeOffsetY>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
