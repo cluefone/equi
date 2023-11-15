@@ -43,7 +43,7 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
@@ -97,7 +97,7 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>25</TopAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<BottomAnchorOffset>49</BottomAnchorOffset>
@@ -151,7 +151,7 @@
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>50</TopAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<BottomAnchorOffset>74</BottomAnchorOffset>
