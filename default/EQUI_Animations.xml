@@ -56,6 +56,24 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+	<TextureInfo item="Achievement_subcat_base01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="Achievement_subcat_mouseover01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="Achievement_subcat_selected01.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
 	<TextureInfo item="Achievement_TitleBorders.tga">
 		<Size>
 			<CX>256</CX>
@@ -2502,6 +2520,57 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="A_LS">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>96</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_LSHover">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>128</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_LSSelected">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>256</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
 	<Ui2DAnimation item="A_Quarm">
 		<Frames>
 			<Texture>Achievement_hunter_collect_base.tga</Texture>
@@ -4332,6 +4401,57 @@
 			</Location>
 			<Size>
 				<CX>84</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_YoDSub">
+		<Frames>
+			<Texture>Achievement_subcat_base01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>34</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_YoDSubHover">
+		<Frames>
+			<Texture>Achievement_subcat_mouseover01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>34</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_YoDSubSelected">
+		<Frames>
+			<Texture>Achievement_subcat_selected01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>34</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
 				<CY>20</CY>
 			</Size>
 			<Hotspot>
