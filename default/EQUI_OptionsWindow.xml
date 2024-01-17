@@ -2269,9 +2269,9 @@
 		<Choices>Raid + NPCs</Choices>
 		<Choices>All</Choices>
 	</Combobox>	
-	<!-- Gamma Slider -->
-	<Label item="ODP_GammaLabel">
-		<ScreenID>ODP_GammaLabel</ScreenID>
+	<!-- BrightnessBias Slider -->
+	<Label item="ODP_BrightnessBiasLabel">
+		<ScreenID>ODP_BrightnessBiasLabel</ScreenID>
 		<Location>
 			<X>200</X>
 			<Y>96</Y>
@@ -2280,14 +2280,14 @@
 			<CX>160</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>Gamma</Text>
+		<Text>Enhance Vision</Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Adjusts the game's gamma in full-screen mode or the desktop's gamma if Windowed Gamma is enabled in advanced display options.</TooltipReference>
+		<TooltipReference>Enhances your vision and allows you to see better in dim light.</TooltipReference>
 	</Label>
-	<Slider item="ODP_GammaSlider">
-		<ScreenID>ODP_GammaSlider</ScreenID>
+	<Slider item="ODP_BrightnessBiasSlider">
+		<ScreenID>ODP_BrightnessBiasSlider</ScreenID>
 		<Location>
 			<X>200</X>
 			<Y>116</Y>
@@ -2297,10 +2297,10 @@
 			<CY>16</CY>
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
-		<TooltipReference>Adjusts the game's gamma in full-screen mode or the desktop's gamma if Windowed Gamma is enabled in advanced display options.</TooltipReference>
+		<TooltipReference>Enhances your vision and allows you to see better in dim light.</TooltipReference>
 	</Slider>
-	<Label item="ODP_GammaValueLabel">
-		<ScreenID>ODP_GammaValueLabel</ScreenID>
+	<Label item="ODP_BrightnessBiasValueLabel">
+		<ScreenID>ODP_BrightnessBiasValueLabel</ScreenID>
 		<Location>
 			<X>300</X>
 			<Y>116</Y>
@@ -2313,7 +2313,7 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
-		<TooltipReference>Adjusts the game's gamma in full-screen mode or the desktop's gamma if Windowed Gamma is enabled in advanced display options.</TooltipReference>
+		<TooltipReference>Enhances your vision and allows you to see better in dim light.</TooltipReference>
 	</Label>
 	<!-- Clip Plane Slider -->
 	<Label item="ODP_ClipPlaneLabel">
@@ -2912,9 +2912,9 @@
 		<Pieces>ODP_LevelOfDetailCheckbox</Pieces>
 		<Pieces>ODP_ShowHelmCheckbox</Pieces>
 		<Pieces>ODP_ShowPreLuclinMounts</Pieces>
-		<Pieces>ODP_GammaLabel</Pieces>
-		<Pieces>ODP_GammaSlider</Pieces>
-		<Pieces>ODP_GammaValueLabel</Pieces>
+		<Pieces>ODP_BrightnessBiasLabel</Pieces>
+		<Pieces>ODP_BrightnessBiasSlider</Pieces>
+		<Pieces>ODP_BrightnessBiasValueLabel</Pieces>
 		<Pieces>ODP_ClipPlaneLabel</Pieces>
 		<Pieces>ODP_ClipPlaneSlider</Pieces>
 		<Pieces>ODP_ClipPlaneValueLabel</Pieces>
