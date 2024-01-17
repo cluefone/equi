@@ -438,7 +438,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
-			<Y>6</Y>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>192</CX>
@@ -481,7 +481,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
-			<Y>42</Y>
+			<Y>37</Y>
 		</Location>
 		<Size>
 			<CX>192</CX>
@@ -525,7 +525,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
-			<Y>78</Y>
+			<Y>73</Y>
 		</Location>
 		<Size>
 			<CX>192</CX>
@@ -569,7 +569,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
-			<Y>114</Y>
+			<Y>109</Y>
 		</Location>
 		<Size>
 			<CX>192</CX>
@@ -612,7 +612,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
-			<Y>150</Y>
+			<Y>145</Y>
 		</Location>
 		<Size>
 			<CX>192</CX>
@@ -654,7 +654,7 @@
 		<ScreenID>CLW_ResetUICheckbox</ScreenID>
 		<Location>
 			<X>0</X>
-			<Y>185</Y>
+			<Y>188</Y>
 		</Location>
 		<Size>
 			<CX>162</CX>

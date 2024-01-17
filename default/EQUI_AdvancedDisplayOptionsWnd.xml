@@ -378,133 +378,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <Button item="ADOW_EnableWindowedGammaCheckbox">
-    <ScreenID>ADOW_EnableWindowedGammaCheckbox</ScreenID>
-    <Font>3</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>183</X>
-      <Y>38</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>12</CY>
-    </Size>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>0</TopAnchorOffset>
-    <BottomAnchorOffset>0</BottomAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
-    <TooltipReference>Toggle whether your desktop's gamma settings are modified while in windowed mode.</TooltipReference>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Border>false</Style_Border>
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text />
-    <Template>BDT_Checkbox</Template>
-  </Button>
-  <Button item="ADOW_EnableLinearGammaCheckbox">
-    <ScreenID>ADOW_EnableLinearGammaCheckbox</ScreenID>
-    <Font>3</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>183</X>
-      <Y>54</Y>
-    </Location>
-    <Size>
-      <CX>12</CX>
-      <CY>12</CY>
-    </Size>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>0</TopAnchorOffset>
-    <BottomAnchorOffset>0</BottomAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
-    <TooltipReference>Toggle to increase the default gamma multiplier while in windowed mode.</TooltipReference>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Border>false</Style_Border>
-    <Style_Checkbox>true</Style_Checkbox>
-    <Text />
-    <Template>BDT_Checkbox</Template>
-  </Button>
-  <Label item="ADOW_EnableLinearGammaLabel">
-    <ScreenID>ADOW_EnableLinearGammaLabel</ScreenID>
-    <Font>3</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>196</X>
-      <Y>53</Y>
-    </Location>
-    <Size>
-      <CX>165</CX>
-      <CY>20</CY>
-    </Size>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>0</TopAnchorOffset>
-    <BottomAnchorOffset>0</BottomAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <RightAnchorOffset>0</RightAnchorOffset>
-    <Text>Increase Windowed Gamma</Text>
-    <TooltipReference>Toggle to increase the default gamma multiplier while in windowed mode.</TooltipReference>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Border>false</Style_Border>
-    <EQType>0</EQType>
-    <NoWrap>false</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-  </Label>
-  <Label item="ADOW_EnableWindowedGammaLabel">
-    <ScreenID>ADOW_EnableWindowedGammaLabel</ScreenID>
-    <Font>3</Font>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>196</X>
-      <Y>37</Y>
-    </Location>
-    <Size>
-      <CX>165</CX>
-      <CY>20</CY>
-    </Size>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
-    <TopAnchorOffset>0</TopAnchorOffset>
-    <BottomAnchorOffset>0</BottomAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <RightAnchorOffset>0</RightAnchorOffset>
-    <Text>Enable Windowed Gamma</Text>
-    <TooltipReference>Toggle whether your desktop's gamma settings are modified while in windowed mode.</TooltipReference>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Border>false</Style_Border>
-    <EQType>0</EQType>
-    <NoWrap>false</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-  </Label>
-  <Label item="ADOW_ActorClipPlaneLabel">
+ <Label item="ADOW_ActorClipPlaneLabel">
     <ScreenID>ADOW_ActorClipPlaneLabel</ScreenID>
     <Font>3</Font>
     <RelativePosition>true</RelativePosition>
@@ -1254,10 +1128,6 @@
     <Pieces>ADOW_EnablePostEffectsCheckbox</Pieces>
     <Pieces>ADOW_EnableBloomLabel</Pieces>
     <Pieces>ADOW_EnableBloomCheckbox</Pieces>
-    <Pieces>ADOW_EnableWindowedGammaLabel</Pieces>
-    <Pieces>ADOW_EnableWindowedGammaCheckbox</Pieces>
-    <Pieces>ADOW_EnableLinearGammaLabel</Pieces>
-    <Pieces>ADOW_EnableLinearGammaCheckbox</Pieces>
     <Pieces>ADOW_MaxFPSLabel</Pieces>
     <Pieces>ADOW_MaxFPSSlider</Pieces>
     <Pieces>ADOW_MaxFPSSliderValueLabel</Pieces>
